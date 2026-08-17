@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+
+body {
+  @apply bg-white text-kurye-navy;
+  font-family: "Manrope", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #fbfaf7;
+}
+
+h1, h2, h3, .display-font {
+  font-family: "Sora", "Manrope", ui-sans-serif, system-ui, sans-serif;
+}
+
+.container { @apply max-w-7xl mx-auto px-4; }
+.glass { @apply rounded-2xl border border-kurye-line bg-white/90 backdrop-blur-md; }
+
+.aciljet-shell {
+  background:
+    radial-gradient(circle at 10% 6%, rgba(216,199,176,0.34), transparent 28%),
+    radial-gradient(circle at 92% 14%, rgba(122,30,45,0.10), transparent 30%),
+    linear-gradient(180deg, #fbfaf7 0%, #ffffff 100%);
+}
+
+.aciljet-champagne-panel {
+  background:
+    radial-gradient(circle at 12% 18%, rgba(216,199,176,0.48), transparent 34%),
+    radial-gradient(circle at 88% 18%, rgba(122,30,45,0.12), transparent 34%),
+    linear-gradient(135deg, #fffaf2 0%, #f8efe4 48%, #ffffff 100%);
+}
+
+.aciljet-dark-panel {
+  background:
+    radial-gradient(circle at 12% 18%, rgba(216,199,176,0.26), transparent 32%),
+    radial-gradient(circle at 84% 18%, rgba(122,30,45,0.52), transparent 36%),
+    linear-gradient(135deg, #111418 0%, #2a0d15 55%, #07080a 100%);
+}
+
+.aciljet-line-grid {
+  background-image:
+    linear-gradient(rgba(216,199,176,0.20) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(216,199,176,0.16) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+
+.aciljet-link-list a {
+  @apply inline-flex items-center gap-2 text-sm font-extrabold transition;
+  color: rgba(17,20,24,0.72);
+}
+.aciljet-link-list a:hover { color: #7A1E2D; }
+.aciljet-link-list a::before {
+  content: "";
+  width: 18px;
+  height: 1px;
+  background: #D8C7B0;
+  transition: width .2s ease, background .2s ease;
+}
+.aciljet-link-list a:hover::before { width: 28px; background: #7A1E2D; }
+
+.soft-light-gradient, .soft-light-gradient-alt {
+  background:
+    radial-gradient(circle at 14% 18%, rgba(216,199,176,0.38), transparent 34%),
+    radial-gradient(circle at 88% 16%, rgba(122,30,45,0.10), transparent 34%),
+    linear-gradient(135deg, #ffffff 0%, #fffaf2 100%);
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-2xl px-5 py-3 font-extrabold uppercase tracking-wide transition hover:translate-y-[-1px];
+  background: linear-gradient(135deg, #7A1E2D, #111418);
+  color: #ffffff;
+  box-shadow: 0 18px 36px rgba(122,30,45,0.20);
+}
+
+.btn-ghost {
+  @apply inline-flex items-center justify-center rounded-2xl border px-5 py-3 font-extrabold uppercase tracking-wide transition;
+  border-color: rgba(216,199,176,0.72);
+  color: #111418;
+}
+.btn-ghost:hover { background: #7A1E2D; color: white; border-color: #7A1E2D; }
+
+@media (max-width: 640px) {
+  .aciljet-champagne-panel {
+    background:
+      radial-gradient(circle at 12% 16%, rgba(216,199,176,0.52), transparent 40%),
+      radial-gradient(circle at 90% 14%, rgba(122,30,45,0.14), transparent 38%),
+      linear-gradient(135deg, #fffaf2 0%, #ffffff 100%);
+  }
+}
