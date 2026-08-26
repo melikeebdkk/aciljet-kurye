@@ -81,7 +81,7 @@ export const regions: Region[] = [
         "excerpt": "Bakırköy bölgesinde bakırköy; Ataköy, Florya, Yeşilköy sahil şeridi, köklü sağlık kuruluşları, adliye sarayı ve lüks alışveriş merkezleriyle kentin en köklü ve hareketli ticaret/yaşam merkezlerindendir. Sahil yolu ve E-5 bağlantılarında mesai.",
         "article": [
           "Bakırköy; Ataköy, Florya, Yeşilköy sahil şeridi, köklü sağlık kuruluşları, adliye sarayı ve lüks alışveriş merkezleriyle kentin en köklü ve hareketli ticaret/yaşam merkezlerindendir. Sahil yolu ve E-5 bağlantılarında mesai saatlerinde yaşanan trafik tıkanıklıkları acil taşımacılığı kritik hale getirir.",
-          "Örneğin; Bakırköy Adliyesi'nde saat 16:30'daki bir duruşma öncesinde hâkime sunulması gereken ek delil dosyasını veya Ataköy Marina'daki müşterinize Florya'dan teslim edilecek lüks mağaza paketini acilen ulaştırmanız mı gerekiyor? AcilJet VIP Moto Kurye, adresinizden paketi alır almaz başka hiçbir ara teslimat yapmadan en kısa sahil veya yan yol rotasıyla dakikalar içinde teslimatı gerçekleştirir.",
+          "Örneğin; Bakırköy Adliyesi'nde saat 16:30'daki bir duruşma öncesinde hâkime sunulması gereken ek delil dosyasını veya Ataköy Marina'daki müşterinize Florya'dan teslim edilecek lüks mağaza paketini acilen ulaştırmanız mı gerekiyor? AcilJet VIP Moto Kurye, adresinizden paketi alır almaz başka hiçbir ara teslimat yapmadan en uygun sahil veya yan yol bağlantısıyla dakikalar içinde teslimatı gerçekleştirir.",
           "Öne çıkan hizmetler: Bakırköy Adliyesi Hukuk & Dava Dosyası Kuryesi; Florya & Ataköy VIP Özel Paket Taşımacılığı; Klinik & Sağlık Merkezi Rapor Transferi; Lüks Mağaza & Butik Aynı Gün Teslimat."
         ],
         "quickStat": "Bakırköy Adliyesi Hukuk & Dava Dosyası Kuryesi"
@@ -104,7 +104,7 @@ export const regions: Region[] = [
         "headline": "Bayrampaşa Kurye | Büyük Otogar, Mega Center & İmalat Sanayi",
         "excerpt": "Bayrampaşa bölgesinde bayrampaşa; 15 Temmuz Demokrasi Otogarı, Mega Center Gıda Toptancıları Sitesi, plastik, kalıp ve triko imalathaneleriyle İstanbul’un üretim ve şehirlerarası yolcu/kargo aktarma göbeğidir. Otogar çevresi ve sanayi sokaklarındaki.",
         "article": [
-          "Bayrampaşa; 15 Temmuz Demokrasi Otogarı, Mega Center Gıda Toptancıları Sitesi, plastik, kalıp ve triko imalathaneleriyle İstanbul’un üretim ve şehirlerarası yolcu/kargo aktarma göbeğidir. Otogar çevresi ve sanayi sokaklarındaki yoğun karmaşa özel rota yönetimi ister.",
+          "Bayrampaşa; 15 Temmuz Demokrasi Otogarı, Mega Center Gıda Toptancıları Sitesi, plastik, kalıp ve triko imalathaneleriyle İstanbul’un üretim ve şehirlerarası yolcu/kargo aktarma göbeğidir. Otogar çevresi ve sanayi sokaklarındaki yoğun karmaşa özel teslimat planı ister.",
           "Örneğin; Anadolu'daki bir bayinize giden şehirlerarası otobüsün bagajına kalkıştan 20 dakika önce acil bir yedek parça kolisini yetiştirmeniz mi gerekiyor? Ya da Mega Center'daki toptancı ofisinizden Kadıköy'deki restorana acil gıda numunesi mi gidecek? AcilJet Otobüs Kargo Kuryesi otogar peronlarına kadar inip gönderinizi muavine elden teslim eder veya moto kuryemiz numuneyi şehiriçi hedefe hızla ulaştırır.",
           "Öne çıkan hizmetler: Bayrampaşa Otogar Emanet & Bagaj Kuryesi; Mega Center Toptan Gıda & Numune Transferi; Plastik & Kalıp İmalatçıları Acil Parça Dağıtımı; Şehirlerarası Otobüs Kargo Entegrasyonu."
         ],
@@ -118,9 +118,9 @@ export const regions: Region[] = [
         "article": [
           "Beşiktaş; Levent, Etiler, Akaretler, Bebek ve Ortaköy hattıyla kreatif ajanslar, konsolosluklar, üniversiteler, holding binaları ve lüks yaşamın merkezidir. Barbaros Bulvarı ve sahil sahil yolu trafiğinin kilitlendiği anlarda zaman yönetimi hayati önem taşır.",
           "Örneğin; Akaretler’deki kreatif ajansınızdan Levent’teki kurumsal müşterinize saat 16:30’daki kritik lansman toplantısına yetişmesi gereken ıslak imzalı sözleşme veya sunum numunesini mi göndermeniz gerekiyor? Barbaros trafiğinde zaman kaybetmek yerine AcilJet WhatsApp hattına konumu iletmeniz yeterlidir. 15 dakikada gelen VIP Moto Kuryemiz paketi alıp doğrudan Levent'e toplantı masasına ulaştırır.",
-          "Öne çıkan hizmetler: VIP Moto Kurye (Doğrudan & Beklemesiz Rota); Kreatif Ajans & Medya Lansman Kuryesi; Bebek & Etiler Lüks Butik Teslimatı; 7/24 Gece ve Nöbetçi Evrak Servisi."
+          "Öne çıkan hizmetler: VIP Moto Kurye (Doğrudan & Beklemesiz Teslimat); Kreatif Ajans & Medya Lansman Kuryesi; Bebek & Etiler Lüks Butik Teslimatı; 7/24 Gece ve Nöbetçi Evrak Servisi."
         ],
-        "quickStat": "VIP Moto Kurye (Doğrudan & Beklemesiz Rota)"
+        "quickStat": "VIP Moto Kurye (Doğrudan & Beklemesiz Teslimat)"
       },
       {
         "name": "Beylikdüzü",
@@ -166,7 +166,7 @@ export const regions: Region[] = [
         "article": [
           "İstanbul’un yüzölçümü bakımından en büyük ilçesi olan Çatalca; Trakya Serbest Bölgesi, dev antrepolar, gümrük ambarları, rüzgâr santralleri ve agro-turizm tesisleriyle sanayi ile doğanın buluştuğu noktadır. Uzak mesafeler güçlü araç filosu gerektirir.",
           "Örneğin; Trakya Serbest Bölgesi'ndeki yabancı sermayeli fabrikanızdan onaylanması gereken acil gümrük beyannamelerini ve test numunelerini Avrupa Yakası merkezine veya Anadolu Yakası'na aynı gün mü ulaştırmalısınız? AcilJet Kurye, Çatalca'nın geniş yol ağlarına hakim kuryeleriyle mesafeleri kısaltarak güvenli teslimat sunar.",
-          "Öne çıkan hizmetler: Trakya Serbest Bölge Gümrük & Numune Kuryesi; Lojistik Depolar Arası Acil İrsaliye & Evrak; Çatalca-İstanbul Merkez Express Rota; Kamyonet & Panelvan Ağır Parça Taşımacılığı."
+          "Öne çıkan hizmetler: Trakya Serbest Bölge Gümrük & Numune Kuryesi; Lojistik Depolar Arası Acil İrsaliye & Evrak; Çatalca-İstanbul Merkez Express Teslimat; Kamyonet & Panelvan Ağır Parça Taşımacılığı."
         ],
         "quickStat": "Trakya Serbest Bölge Gümrük & Numune Kuryesi"
       },
@@ -201,7 +201,7 @@ export const regions: Region[] = [
         "excerpt": "Eyüpsultan bölgesinde eyüpsultan; tarihi Haliç kıyılarından Rami gıda toptancılarına, oradan Göktürk ve Kemerburgaz’ın lüks villa yerleşimlerine ve Kuzey Marmara Otoyolu bağlantılarına kadar uzanan çok katmanlı bir ilçedir. Farklı bölgelerin farklı.",
         "article": [
           "Eyüpsultan; tarihi Haliç kıyılarından Rami gıda toptancılarına, oradan Göktürk ve Kemerburgaz’ın lüks villa yerleşimlerine ve Kuzey Marmara Otoyolu bağlantılarına kadar uzanan çok katmanlı bir ilçedir. Farklı bölgelerin farklı hız ve araç ihtiyaçları bulunur.",
-          "Örneğin; Göktürk'teki ofisinizden Maslak veya Levent'e acil bir proje dosyası göndermek istediğinizde ya da Rami'deki toptancıdan bir restorana acil malzeme yetiştirmeniz gerektiğinde AcilJet Kurye anında bölgenize en yakın kuryeyi yönlendirir. Kuzey ormanları yolu veya Haliç sahil yolu üzerinden en uygun rotayla paketiniz zamanında yerine ulaşır.",
+          "Örneğin; Göktürk'teki ofisinizden Maslak veya Levent'e acil bir proje dosyası göndermek istediğinizde ya da Rami'deki toptancıdan bir restorana acil malzeme yetiştirmeniz gerektiğinde AcilJet Kurye anında bölgenize en yakın kuryeyi yönlendirir. Kuzey ormanları yolu veya Haliç sahil yolu üzerinden en uygun bağlantıyla paketiniz zamanında yerine ulaşır.",
           "Öne çıkan hizmetler: Göktürk & Kemerburgaz VIP Özel Kurye; Rami & Topçular Toptan Gıda/Ticari Kurye; Haliç Hattı Mimarlık & Ajans Dosya Teslimi; 7/24 Kesintisiz Nöbetçi Moto Kurye."
         ],
         "quickStat": "Göktürk & Kemerburgaz VIP Özel Kurye"
@@ -249,7 +249,7 @@ export const regions: Region[] = [
         "excerpt": "Kâğıthane bölgesinde kâğıthane; Cendere Vadisi boyunca yükselen modern ofis kuleleri, bilişim şirketleri, lojistik merkezleri ve Maslak-Levent hattına doğrudan tünel bağlantılarıyla kentin yeni nesil iş merkezidir. Vadi trafiğinde dakik operasyon.",
         "article": [
           "Kâğıthane; Cendere Vadisi boyunca yükselen modern ofis kuleleri, bilişim şirketleri, lojistik merkezleri ve Maslak-Levent hattına doğrudan tünel bağlantılarıyla kentin yeni nesil iş merkezidir. Vadi trafiğinde dakik operasyon büyük avantaj sağlar.",
-          "Örneğin; Cendere Caddesi'ndeki teknoloji şirketinizden Ümraniye Finans Merkezi'ndeki bir bankaya yedeklenmiş kritik veri disklerini veya ıslak imzalı yazılım sözleşmesini saat 17:00'ye kadar iletmeniz mi gerekiyor? AcilJet Express Moto Kurye, Kâğıthane-Piyalepaşa tüneli ve köprü geçişlerini en optimize rotayla aşarak paketi vaktinde teslim eder.",
+          "Örneğin; Cendere Caddesi'ndeki teknoloji şirketinizden Ümraniye Finans Merkezi'ndeki bir bankaya yedeklenmiş kritik veri disklerini veya ıslak imzalı yazılım sözleşmesini saat 17:00'ye kadar iletmeniz mi gerekiyor? AcilJet Express Moto Kurye, Kâğıthane-Piyalepaşa tüneli ve köprü geçişlerini en uygun geçiş planıyla aşarak paketi vaktinde teslim eder.",
           "Öne çıkan hizmetler: Cendere Vadisi Bilişim & Yazılım Kuryesi; Plazalar Arası Sözleşme & Noter Evrak Dağıtımı; E-Ticaret Firmaları İçin Hızlı Paket Servisi; 7/24 Kesintisiz Şirket Kurye Çözümleri."
         ],
         "quickStat": "Cendere Vadisi Bilişim & Yazılım Kuryesi"
@@ -273,7 +273,7 @@ export const regions: Region[] = [
         "excerpt": "Sarıyer & Maslak bölgesinde sarıyer ve Maslak aksı; gökdelenler, holding merkezleri, İTÜ Teknokent, konsolosluklar, Tarabya-Yeniköy yalıları ve Zekeriyaköy villaları ile iş ve bürokrasi dünyasının zirvesidir. Büyükdere Caddesi trafiği ve plaza güvenlik.",
         "article": [
           "Sarıyer ve Maslak aksı; gökdelenler, holding merkezleri, İTÜ Teknokent, konsolosluklar, Tarabya-Yeniköy yalıları ve Zekeriyaköy villaları ile iş ve bürokrasi dünyasının zirvesidir. Büyükdere Caddesi trafiği ve plaza güvenlik kuralları uzman kurye personeli gerektirir.",
-          "Örneğin; Maslak'taki holding merkezinden Anadolu Yakası Kartal Adliyesi'ne mesai bitmeden yetişmesi gereken acil bir ihtiyati tedbir kararı veya ihale dosyası mı var? AcilJet VIP Kurye, plazanızın resepsiyonundan evrakı teslim alır almaz beklemesiz direkt rota ile ilerler ve mesai bitmeden adliye kalemine teslimatı gerçekleştirir.",
+          "Örneğin; Maslak'taki holding merkezinden Anadolu Yakası Kartal Adliyesi'ne mesai bitmeden yetişmesi gereken acil bir ihtiyati tedbir kararı veya ihale dosyası mı var? AcilJet VIP Kurye, plazanızın resepsiyonundan evrakı teslim alır almaz beklemesiz doğrudan akışla ilerler ve mesai bitmeden adliye kalemine teslimatı gerçekleştirir.",
           "Öne çıkan hizmetler: Maslak Plaza & Holding VIP Kuryesi; Konsolosluk Vize & Pasaport Hızlı Teslimi; Zekeriyaköy & Tarabya Özel Rezidans Kuryesi; Teknokent Yazılım Donanım & Çip Transferi."
         ],
         "quickStat": "Maslak Plaza & Holding VIP Kuryesi"
@@ -332,7 +332,7 @@ export const regions: Region[] = [
     "id": "anadolu-yakasi",
     "eyebrow": "Anadolu Yakası",
     "title": "Anadolu Yakası kurye ve lojistik bölgeleri",
-    "intro": "AcilJet Kurye, Anadolu Yakası'nın 14 ilçesinde sahil, E-5, TEM, havalimanı, sanayi ve ofis akslarını ayrı rota karakterleriyle değerlendirerek teslimat yapar.",
+    "intro": "AcilJet Kurye, Anadolu Yakası'nın 14 ilçesinde sahil, E-5, TEM, havalimanı, sanayi ve ofis akslarını ayrı teslimat karakterleriyle değerlendirerek teslimat yapar.",
     "accent": "petrol",
     "districts": [
       {
@@ -375,9 +375,9 @@ export const regions: Region[] = [
         "name": "Çekmeköy",
         "slug": "cekmekoy-kurye",
         "headline": "Çekmeköy Kurye | Taşdelen, Ömerli Villaları & Madenler Hattı",
-        "excerpt": "Çekmeköy bölgesinde çekmeköy; Taşdelen sanayi siteleri, Alemdağ, Ömerli villa projeleri, kolejler ve Kuzey Marmara Otoyolu bağlantısıyla Anadolu Yakası'nın hızla büyüyen merkezlerindendir. Genişleyen yerleşim alanlarında hızlı rota takibi.",
+        "excerpt": "Çekmeköy bölgesinde çekmeköy; Taşdelen sanayi siteleri, Alemdağ, Ömerli villa projeleri, kolejler ve Kuzey Marmara Otoyolu bağlantısıyla Anadolu Yakası'nın hızla büyüyen merkezlerindendir. Genişleyen yerleşim alanlarında hızlı adres takibi.",
         "article": [
-          "Çekmeköy; Taşdelen sanayi siteleri, Alemdağ, Ömerli villa projeleri, kolejler ve Kuzey Marmara Otoyolu bağlantısıyla Anadolu Yakası'nın hızla büyüyen merkezlerindendir. Genişleyen yerleşim alanlarında hızlı rota takibi şarttır.",
+          "Çekmeköy; Taşdelen sanayi siteleri, Alemdağ, Ömerli villa projeleri, kolejler ve Kuzey Marmara Otoyolu bağlantısıyla Anadolu Yakası'nın hızla büyüyen merkezlerindendir. Genişleyen yerleşim alanlarında hızlı adres takibi şarttır.",
           "Örneğin; Çekmeköy'deki bir eğitim kurumundan veya işletmenizden Ataşehir'deki muhasebe merkezine acil yetiştirilmesi gereken bordro ve çek evraklarınız mı var? AcilJet Express Kurye çağrınız üzerine 15 dakikada adresinize gelerek evrakları teslim alır ve Şile otoyolundan hızla hedef ilçeye iletir.",
           "Öne çıkan hizmetler: Şile Otoyolu & Madenler Express Kurye; Ömerli Villa Siteleri Özel Kurye; Taşdelen Sanayi Parça ve Numune Dağıtımı; Hafif Ticari Doblo ile Koli & Malzeme Taşıma."
         ],
@@ -463,7 +463,7 @@ export const regions: Region[] = [
         "article": [
           "Şile ve Ağva; Karadeniz sahil şeridi, butik otelleri, Işık Üniversitesi kampüsü, yazlık villaları ve doğal ürün üreticileriyle kentin merkezine en uzak ilçelerindendir. Uzun virajlı otoyol mesafeleri profesyonel sürücü tecrübesi ister.",
           "Örneğin; Şile veya Ağva'daki otelinizde konaklayan önemli bir misafiriniz kimlik, pasaport veya özel ilacını Kadıköy/Beşiktaş'taki evinde mi unuttu? Ya da üniversite kampüsünden acil bir akademik evrak mı gönderilecek? Standart kargoların günlerce uğramadığı durumlarda AcilJet Özel Kurye kapıdan kapıya doğrudan ekspres transfer sağlar.",
-          "Öne çıkan hizmetler: Şile & Ağva Otelleri Acil Misafir Kuryesi; Işık Üniversitesi Akademik Evrak Dağıtımı; Yazlık Konutlar İçin Özel İlaç ve Paket Kuryesi; Şehirlerarası Nitelikte Şile-İstanbul VIP Rota."
+          "Öne çıkan hizmetler: Şile & Ağva Otelleri Acil Misafir Kuryesi; Işık Üniversitesi Akademik Evrak Dağıtımı; Yazlık Konutlar İçin Özel İlaç ve Paket Kuryesi; Şehirlerarası Nitelikte Şile-İstanbul VIP Teslimat."
         ],
         "quickStat": "Şile & Ağva Otelleri Acil Misafir Kuryesi"
       },
@@ -509,7 +509,7 @@ export const regions: Region[] = [
     "id": "gebze-kocaeli",
     "eyebrow": "Gebze & Kocaeli Hattı",
     "title": "Gebze ve Kocaeli sanayi teslimat hattı",
-    "intro": "Gebze, Kocaeli ve İstanbul arasındaki sanayi, depo, üretim ve gümrük bağlantılı gönderilerde doğru araç ve doğru rota planı oluşturulur.",
+    "intro": "Gebze, Kocaeli ve İstanbul arasındaki sanayi, depo, üretim ve gümrük bağlantılı gönderilerde doğru araç ve doğru teslimat planı oluşturulur.",
     "accent": "deepblue",
     "districts": [
       {

@@ -1,5 +1,5 @@
-import Head from "next/head";
 import Image from "next/image";
+import { PageSeo, breadcrumbSchema, serviceSchema } from "@/components/Seo";
 
 const groups = [
   {
@@ -10,8 +10,8 @@ const groups = [
     visual: "/aciljet-moto-service.webp",
     visualAlt: "AcilJet moto kurye hizmetleri",
     items: [
-      ["V.I.P. Kurye", "45-60 Dakika", "En acil gönderilerde paket başka teslimatlarla birleştirilmeden öncelikli rota ile ilerler."],
-      ["Express Kurye", "90 Dakika", "Acil ama tekil rota gerektirmeyen gönderiler için hız ve maliyet dengesi kurulur."],
+      ["V.I.P. Kurye", "45-60 Dakika", "En acil gönderilerde paket başka teslimatlarla birleştirilmeden öncelikli teslimat planıyla ilerler."],
+      ["Express Kurye", "90 Dakika", "Acil ama tekil teslimat gerektirmeyen gönderiler için hız ve maliyet dengesi kurulur."],
       ["Normal Kurye", "180 Dakika", "Gün içinde yetişmesi gereken planlı paketler için ekonomik ve kontrollü teslimat yapılır."],
       ["Gece Kuryesi", "7/24", "Mesai sonrası ortaya çıkan evrak, paket ve operasyon ihtiyaçları için yönlendirme sağlanır."],
     ],
@@ -26,7 +26,7 @@ const groups = [
     items: [
       ["Hafif Ticari Kurye", "Binek & Doblo", "Orta hacimli paketler, cihazlar ve hassas teslimatlar için korunaklı araç seçeneği."],
       ["Panelvan & Kamyonet", "Hacimli gönderi", "Koli, numune, mağaza çıkışı veya üretim malzemesi gibi büyük gönderiler için tek seferlik taşıma planı."],
-      ["Esnek Filo Yönetimi", "Maliyet kontrolü", "Paket boyutu ve rota dikkate alınarak gereksiz büyük araç maliyeti engellenir."],
+      ["Esnek Filo Yönetimi", "Maliyet kontrolü", "Paket boyutu ve teslimat yönü dikkate alınarak gereksiz büyük araç maliyeti engellenir."],
     ],
   },
   {
@@ -48,7 +48,7 @@ const groups = [
     title: "Kurumsal Çözümler",
     intro: "Düzenli gönderi trafiği olan işletmeler için AcilJet, tekil kurye çağrısından daha planlı bir operasyon modeli sunar.",
     visual: "/aciljet-region-map.webp",
-    visualAlt: "Kurumsal lojistik rota planlama görseli",
+    visualAlt: "Kurumsal lojistik teslimat planlama görseli",
     items: [
       ["E-Ticaret Desteği", "Günlük çıkış", "Siparişlerin müşteriye hızlı ve marka itibarını koruyacak şekilde ulaşması hedeflenir."],
       ["Sözleşmeli Kurye", "Aylık model", "Düzenli evrak, numune veya şube arası teslimatlar için devamlı iş akışı kurulur."],
@@ -60,11 +60,23 @@ const groups = [
 export default function Hizmetlerimiz() {
   return (
     <>
-      <Head>
-        <title>Hizmetlerimiz | AcilJet Kurye</title>
-        <meta name="description" content="AcilJet Kurye moto kurye, araçlı kurye, şehirlerarası kargo ve kurumsal lojistik çözümleri." />
-        <link rel="canonical" href="https://www.aciljetkurye.com/hizmetlerimiz" />
-      </Head>
+      <PageSeo
+        title="Moto Kurye, Araçlı Kurye ve VIP Kurye Hizmetleri | AcilJet"
+        description="AcilJet Kurye; moto kurye, VIP kurye, express kurye, araçlı kurye, uçak kargo, otobüs kargo ve kurumsal lojistik çözümleri sunar."
+        path="/hizmetlerimiz"
+        image="/aciljet-moto-service.webp"
+        jsonLd={[
+          breadcrumbSchema([
+            { name: "Ana Sayfa", path: "/" },
+            { name: "Hizmetlerimiz", path: "/hizmetlerimiz" },
+          ]),
+          serviceSchema(
+            "AcilJet Kurye Hizmetleri",
+            "Moto kurye, araçlı kurye, şehirlerarası kargo ve kurumsal lojistik hizmetleri.",
+            "/hizmetlerimiz"
+          ),
+        ]}
+      />
       <main className="aciljet-shell">
         <section className="px-4 py-14 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-7xl rounded-[2rem] border border-[#d8c7b0]/80 aciljet-champagne-panel p-6 shadow-soft sm:p-10 lg:p-14">

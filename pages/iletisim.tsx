@@ -1,2 +1,68 @@
-import Head from "next/head";
-export default function Iletisim(){return <><Head><title>İletişim | AcilJet Kurye</title><meta name="description" content="AcilJet Kurye iletişim: telefon ve WhatsApp üzerinden hızlı kurye talebi oluşturun."/><link rel="canonical" href="https://www.aciljetkurye.com/iletisim"/></Head><main className="aciljet-shell"><section className="px-4 py-14 sm:px-6 lg:px-8"><div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[1.05fr_0.95fr] lg:items-center"><div className="rounded-[2rem] border border-[#d8c7b0]/80 aciljet-champagne-panel p-6 shadow-soft sm:p-10 lg:p-14"><p className="text-xs font-extrabold uppercase tracking-[0.24em] text-[#7a1e2d]">İletişim</p><h1 className="mt-4 max-w-4xl text-4xl font-extrabold tracking-tight text-[#111418] md:text-6xl">Acil gönderi için beklemeyin, doğrudan ulaşın.</h1><p className="mt-5 max-w-3xl text-base leading-8 text-[#111418]/68 md:text-lg">Form doldurup cevap beklemek yerine alım adresini, teslim adresini ve paket bilgisini iletin. AcilJet ekibi uygun teslimat modelini hızlıca netleştirir.</p><div className="mt-8 grid gap-3 sm:grid-cols-3">{['Adres bilgisi','Paket hacmi','Aciliyet modu'].map(item=><div key={item} className="rounded-[1.25rem] border border-[#d8c7b0]/80 bg-white/78 p-4 shadow-[0_10px_24px_rgba(42,13,21,0.05)]"><span className="mb-3 block h-1 w-10 rounded-full bg-[#7a1e2d]"/><p className="text-sm font-extrabold text-[#111418]">{item}</p></div>)}</div></div><aside className="rounded-[2rem] border border-[#d8c7b0]/80 bg-white p-4 shadow-soft sm:p-5"><div className="rounded-[1.5rem] aciljet-dark-panel p-6 text-white"><p className="text-xs font-extrabold uppercase tracking-[0.2em] text-[#d8c7b0]">Hızlı Talep</p><h2 className="mt-3 text-3xl font-extrabold tracking-tight">Adresi söyleyin, uygun teslimat modelini belirleyelim.</h2><p className="mt-4 leading-7 text-white/70">Nereden alınacak, nereye gidecek ve paket yaklaşık ne boyutta? Bu üç bilgiyle rota ve araç tipi hızlıca şekillenir.</p></div><div className="mt-4 grid gap-3"><a href="tel:+905428421013" className="group rounded-[1.35rem] border border-[#d8c7b0]/80 bg-[#fffaf2] p-5 transition hover:border-[#7a1e2d]/35"><p className="text-xs font-extrabold uppercase tracking-[0.18em] text-[#7a1e2d]">Tıkla, Ara</p><p className="mt-2 text-3xl font-extrabold tracking-tight text-[#111418]">0542 842 10 13</p><p className="mt-3 leading-7 text-[#111418]/62">Telefonla arayın; adresi, paket tipini ve aciliyetinizi söyleyin.</p></a><a href="https://wa.me/905428421013?text=Merhaba%2C%20kurye%20hizmeti%20i%C3%A7in%20fiyat%20almak%20istiyorum." target="_blank" rel="noopener noreferrer" className="group rounded-[1.35rem] border border-[#d8c7b0]/80 bg-white p-5 transition hover:border-[#7a1e2d]/35"><p className="text-xs font-extrabold uppercase tracking-[0.18em] text-[#7a1e2d]">WhatsApp</p><p className="mt-2 text-2xl font-extrabold tracking-tight text-[#111418]">Konum ve paket bilgisini gönderin.</p><p className="mt-3 leading-7 text-[#111418]/62">VIP, Express, Normal veya araçlı kurye seçeneklerinden hangisinin uygun olduğunu belirleyelim.</p></a></div></aside></div></section></main></>}
+import { PageSeo, breadcrumbSchema, serviceSchema } from "@/components/Seo";
+
+export default function Iletisim() {
+  return (
+    <>
+      <PageSeo
+        title="Acil Kurye İletişim | 7/24 Telefon ve WhatsApp | AcilJet"
+        description="AcilJet Kurye iletişim hattı: İstanbul içi moto kurye, VIP kurye, express kurye ve araçlı kurye talepleri için telefon veya WhatsApp ile ulaşın."
+        path="/iletisim"
+        jsonLd={[
+          breadcrumbSchema([
+            { name: "Ana Sayfa", path: "/" },
+            { name: "İletişim", path: "/iletisim" },
+          ]),
+          serviceSchema(
+            "Acil Kurye İletişim Hattı",
+            "Telefon ve WhatsApp üzerinden hızlı kurye talebi oluşturma.",
+            "/iletisim"
+          ),
+        ]}
+      />
+      <main className="aciljet-shell">
+        <section className="px-4 py-14 sm:px-6 lg:px-8">
+          <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
+            <div className="aciljet-champagne-panel rounded-[2rem] border border-[#d8c7b0]/80 p-6 shadow-soft sm:p-10 lg:p-14">
+              <p className="text-xs font-extrabold uppercase tracking-[0.24em] text-[#7a1e2d]">İletişim</p>
+              <h1 className="mt-4 max-w-4xl text-4xl font-extrabold tracking-tight text-[#111418] md:text-6xl">
+                Acil gönderi için beklemeyin, doğrudan ulaşın.
+              </h1>
+              <p className="mt-5 max-w-3xl text-base leading-8 text-[#111418]/68 md:text-lg">
+                Form doldurup cevap beklemek yerine alım adresini, teslim adresini ve paket bilgisini iletin. AcilJet ekibi uygun teslimat modelini hızlıca netleştirir.
+              </p>
+              <div className="mt-8 grid gap-3 sm:grid-cols-3">
+                {["Adres bilgisi", "Paket hacmi", "Aciliyet modu"].map((item) => (
+                  <div key={item} className="rounded-[1.25rem] border border-[#d8c7b0]/80 bg-white/78 p-4 shadow-[0_10px_24px_rgba(42,13,21,0.05)]">
+                    <span className="mb-3 block h-1 w-10 rounded-full bg-[#7a1e2d]" />
+                    <p className="text-sm font-extrabold text-[#111418]">{item}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <aside className="rounded-[2rem] border border-[#d8c7b0]/80 bg-white p-4 shadow-soft sm:p-5">
+              <div className="aciljet-dark-panel rounded-[1.5rem] p-6 text-white">
+                <p className="text-xs font-extrabold uppercase tracking-[0.2em] text-[#d8c7b0]">Hızlı Talep</p>
+                <h2 className="mt-3 text-3xl font-extrabold tracking-tight">Adresi söyleyin, uygun teslimat modelini belirleyelim.</h2>
+                <p className="mt-4 leading-7 text-white/70">
+                  Nereden alınacak, nereye gidecek ve paket yaklaşık ne boyutta? Bu üç bilgiyle teslimat planı ve araç tipi hızlıca şekillenir.
+                </p>
+              </div>
+              <div className="mt-4 grid gap-3">
+                <a href="tel:+905428421013" className="group rounded-[1.35rem] border border-[#d8c7b0]/80 bg-[#fffaf2] p-5 transition hover:border-[#7a1e2d]/35">
+                  <p className="text-xs font-extrabold uppercase tracking-[0.18em] text-[#7a1e2d]">Tıkla, Ara</p>
+                  <p className="mt-2 text-3xl font-extrabold tracking-tight text-[#111418]">0542 842 10 13</p>
+                  <p className="mt-3 leading-7 text-[#111418]/62">Telefonla arayın; adresi, paket tipini ve aciliyetinizi söyleyin.</p>
+                </a>
+                <a href="https://wa.me/905428421013?text=Merhaba%2C%20kurye%20hizmeti%20i%C3%A7in%20fiyat%20almak%20istiyorum." target="_blank" rel="noopener noreferrer" className="group rounded-[1.35rem] border border-[#d8c7b0]/80 bg-white p-5 transition hover:border-[#7a1e2d]/35">
+                  <p className="text-xs font-extrabold uppercase tracking-[0.18em] text-[#7a1e2d]">WhatsApp</p>
+                  <p className="mt-2 text-2xl font-extrabold tracking-tight text-[#111418]">Konum ve paket bilgisini gönderin.</p>
+                  <p className="mt-3 leading-7 text-[#111418]/62">VIP, Express, Normal veya araçlı kurye seçeneklerinden hangisinin uygun olduğunu belirleyelim.</p>
+                </a>
+              </div>
+            </aside>
+          </div>
+        </section>
+      </main>
+    </>
+  );
+}

@@ -5,19 +5,17 @@ import Navbar from "@/components/Navbar";
 import FloatingCTA from "@/components/FloatingCTA";
 import Footer from "@/components/Footer";
 import Script from "next/script";
-import { useRouter } from "next/router";
+import { PHONE_NUMBER, SITE_NAME, SITE_URL } from "@/components/Seo";
 
 export default function MyApp({ Component, pageProps }: AppProps) {
-  const router = useRouter();
-  const canonical =
-    "https://www.aciljetkurye.com" +
-    (router.asPath === "/" ? "/" : router.asPath.split("?")[0]);
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    name: "AcilJet Kurye",
-    url: "https://www.aciljetkurye.com",
-    telephone: "+905428421013",
+    name: SITE_NAME,
+    url: SITE_URL,
+    telephone: PHONE_NUMBER,
+    image: `${SITE_URL}/aciljet-logo-selected.webp`,
+    priceRange: "$$",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Beykoz",
@@ -27,8 +25,15 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     areaServed: ["İstanbul", "Anadolu Yakası", "Avrupa Yakası", "Çevre iller"],
     openingHours: "Mo-Su 00:00-23:59",
     description:
-      "İstanbul ve çevre illerde moto kurye, araçlı kurye, VIP kurye, uçak kargo ve otobüs kargo çözümleri.",
+      "İstanbul ve çevre illerde 7/24 moto kurye, araçlı kurye, VIP kurye, uçak kargo ve otobüs kargo çözümleri.",
     sameAs: [],
+  };
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: SITE_NAME,
+    url: SITE_URL,
+    inLanguage: "tr-TR",
   };
 
   return (
@@ -36,14 +41,11 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href={canonical} />
-        <meta property="og:site_name" content="AcilJet Kurye" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content={canonical} />
-        <meta name="theme-color" content="#07111f" />
+        <meta name="format-detection" content="telephone=yes" />
+        <meta name="theme-color" content="#111418" />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify([localBusinessSchema, websiteSchema]) }}
         />
       </Head>
 

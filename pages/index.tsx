@@ -1,24 +1,20 @@
-import Head from "next/head";
 import Hero from "@/components/Hero";
 import HomeSections from "@/components/HomeSections";
+import { PageSeo, serviceSchema } from "@/components/Seo";
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>AcilJet Kurye | İstanbul Moto Kurye, VIP Kurye ve Araçlı Kurye</title>
-        <meta
-          name="description"
-          content="AcilJet Kurye; İstanbul ve çevre illerde 25 yıllık tecrübeyle VIP kurye, Express kurye, gece kurye, araçlı kurye ve şehirlerarası teslimat çözümleri sunar."
-        />
-        <link rel="canonical" href="https://www.aciljetkurye.com/" />
-        <meta property="og:title" content="AcilJet Kurye | İstanbul’un Sokak Hafızası" />
-        <meta
-          property="og:description"
-          content="Saniyeler içinde fiyatlandırma, dakikalar içinde profesyonel teslimat. İstanbul içi ve şehirlerarası kurye çözümleri."
-        />
-        <meta property="og:image" content="https://www.aciljetkurye.com/aciljet-logo-selected.webp" />
-      </Head>
+      <PageSeo
+        title="İstanbul Moto Kurye ve 7/24 Acil Kurye | AcilJet Kurye"
+        description="AcilJet Kurye; İstanbul içi moto kurye, VIP kurye, express kurye, araçlı kurye ve şehirlerarası teslimat için 7/24 hızlı kurye çözümleri sunar."
+        path="/"
+        jsonLd={serviceSchema(
+          "İstanbul Moto Kurye ve Acil Kurye Hizmeti",
+          "İstanbul içi moto kurye, VIP kurye, express kurye ve araçlı kurye teslimat çözümleri.",
+          "/"
+        )}
+      />
       <Hero />
       <HomeSections />
     </>

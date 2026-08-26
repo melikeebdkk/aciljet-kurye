@@ -1,17 +1,29 @@
-import Head from "next/head";
 import Image from "next/image";
 import { regions } from "../data/regions";
+import { PageSeo, breadcrumbSchema, serviceSchema } from "@/components/Seo";
 
 const accents = ["#7a1e2d", "#d8c7b0", "#111418", "#a3263a"];
 
 export default function Bolgelerimiz() {
   return (
     <>
-      <Head>
-        <title>Bölgelerimiz | AcilJet Kurye</title>
-        <meta name="description" content="AcilJet Kurye Anadolu Yakası, Avrupa Yakası, şehirlerarası, Gebze ve Kocaeli kurye hizmet bölgeleri." />
-        <link rel="canonical" href="https://www.aciljetkurye.com/bolgelerimiz" />
-      </Head>
+      <PageSeo
+        title="İstanbul Kurye Bölgeleri | Anadolu ve Avrupa Yakası | AcilJet"
+        description="AcilJet Kurye; İstanbul Anadolu Yakası, Avrupa Yakası, Gebze, Kocaeli ve şehirlerarası teslimat bölgelerinde hızlı kurye hizmeti verir."
+        path="/bolgelerimiz"
+        image="/aciljet-region-map.webp"
+        jsonLd={[
+          breadcrumbSchema([
+            { name: "Ana Sayfa", path: "/" },
+            { name: "Bölgelerimiz", path: "/bolgelerimiz" },
+          ]),
+          serviceSchema(
+            "İstanbul Kurye Hizmet Bölgeleri",
+            "Anadolu Yakası, Avrupa Yakası, Gebze, Kocaeli ve şehirlerarası kurye hizmet bölgeleri.",
+            "/bolgelerimiz"
+          ),
+        ]}
+      />
       <main className="aciljet-shell">
         <section className="px-4 py-14 sm:px-6 lg:px-8">
           <div className="mx-auto grid max-w-7xl overflow-hidden rounded-[2rem] border border-[#d8c7b0]/80 bg-white shadow-soft lg:grid-cols-[1.05fr_0.95fr]">
@@ -39,14 +51,14 @@ export default function Bolgelerimiz() {
             <div className="relative min-h-[20rem] border-t border-[#d8c7b0]/70 lg:min-h-full lg:border-l lg:border-t-0">
               <Image
                 src="/aciljet-region-map.webp"
-                alt="AcilJet hizmet bölgeleri ve rota ağı"
+                alt="AcilJet hizmet bölgeleri ve teslimat ağı"
                 fill
                 sizes="(max-width: 1024px) 100vw, 560px"
                 className="object-cover object-center"
               />
               <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(17,20,24,0.04)_0%,rgba(42,13,21,0.50)_100%)]" />
               <div className="absolute bottom-0 left-0 right-0 p-6 text-white sm:p-8">
-                <p className="text-xs font-extrabold uppercase tracking-[0.22em] text-[#d8c7b0]">Rota Planı</p>
+                <p className="text-xs font-extrabold uppercase tracking-[0.22em] text-[#d8c7b0]">Teslimat Planı</p>
                 <p className="mt-2 max-w-md text-2xl font-extrabold leading-tight">
                   İlçe ve hat detayları tek tek ayrı sayfalarda işlendi.
                 </p>
