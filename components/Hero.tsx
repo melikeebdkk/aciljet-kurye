@@ -15,7 +15,7 @@ export default function Hero() {
             <h1 className="mt-6 max-w-5xl text-[2.35rem] font-extrabold leading-[1.02] tracking-tight text-[#111418] min-[420px]:text-[2.75rem] sm:text-6xl lg:text-[5.25rem]">
               Acil gönderiniz için
               <br />
-              <span className="text-[#7a1e2d]">keskin rota, net teslimat.</span>
+              <span className="text-[#7a1e2d]">hızlı plan, net teslimat.</span>
             </h1>
             <p className="mt-6 max-w-2xl text-base font-semibold leading-8 text-[#111418]/68 md:text-lg">
               AcilJet Kurye; İstanbul içi moto kurye, araçlı kurye ve şehirlerarası teslimat taleplerinde hızlı karar, doğru ekip ve kontrollü operasyon diliyle çalışır.
@@ -40,7 +40,7 @@ export default function Hero() {
             <div className="relative z-10 flex h-full flex-col justify-between">
               <div>
                 <p className="text-xs font-extrabold uppercase tracking-[0.24em] text-[#d8c7b0]">Operasyon Mantığı</p>
-                <h2 className="mt-4 text-3xl font-extrabold leading-tight sm:text-4xl">Adres, paket, aciliyet. Gerisi rota planı.</h2>
+                <h2 className="mt-4 text-3xl font-extrabold leading-tight sm:text-4xl">Adres, paket, aciliyet. Gerisi teslimat planı.</h2>
               </div>
               <div className="mt-8 grid gap-3">
                 {["Acil alım yönlendirmesi", "Moto veya araçlı ekip seçimi", "Teslimat süresi ve fiyat netliği"].map((item) => (

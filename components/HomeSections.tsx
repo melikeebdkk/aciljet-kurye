@@ -2,13 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 
 const reasons = [
-  ["Acil iş refleksi", "Talep geldiği anda alım noktası, teslim adresi ve paket tipi birlikte değerlendirilir; rota kararı bekletilmeden verilir."],
+  ["Acil iş refleksi", "Talep geldiği anda alım noktası, teslim adresi ve paket tipi birlikte değerlendirilir; yönlendirme kararı bekletilmeden verilir."],
   ["Doğru ekip seçimi", "Küçük evrak için motor, hacimli paket için araçlı ekip yönlendirilir. Amaç hız kadar doğru taşıma modelini seçmektir."],
   ["Net iletişim", "Telefon veya WhatsApp üzerinden alınan bilgilerle teslimat modu, tahmini süre ve fiyat yaklaşımı açık biçimde paylaşılır."],
 ];
 
 const speeds = [
-  ["V.I.P. Kurye", "45 - 60 dk", "Tek gönderi, tek rota, en hızlı teslimat planı.", "Acil"],
+  ["V.I.P. Kurye", "45 - 60 dk", "Tek gönderi, doğrudan akış, en hızlı teslimat planı.", "Acil"],
   ["Express Kurye", "90 dk", "Öncelikli akışa alınan hızlı ve dengeli teslimat.", "Öncelikli"],
   ["Normal Kurye", "180 dk", "Gün içi planlı gönderiler için ekonomik çözüm.", "Planlı"],
   ["Gece Kuryesi", "7/24", "Mesai sonrası acil ihtiyaçlar için kesintisiz yönlendirme.", "Kesintisiz"],
@@ -56,7 +56,7 @@ export default function HomeSections() {
     <div className="aciljet-shell">
       <section className="px-4 py-14 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl">
-          <SectionTitle eyebrow="Neden AcilJet?" title="Acil işlerde hızlı karar, doğru rota ve temiz iletişim." text="AcilJet'in dili gösterişli vaatlerden çok, teslimat anında işe yarayan net operasyona dayanır." />
+          <SectionTitle eyebrow="Neden AcilJet?" title="Acil işlerde hızlı karar, doğru yönlendirme ve temiz iletişim." text="AcilJet'in dili gösterişli vaatlerden çok, teslimat anında işe yarayan net operasyona dayanır." />
           <div className="overflow-hidden rounded-[1.7rem] border border-[#d8c7b0]/80 bg-white shadow-[0_20px_60px_rgba(42,13,21,0.10)]">
             <div className="grid divide-y divide-[#d8c7b0]/60 md:grid-cols-3 md:divide-x md:divide-y-0">
               {reasons.map(([title, text], index) => (
@@ -88,7 +88,7 @@ export default function HomeSections() {
                 <p className="text-xs font-extrabold uppercase tracking-[0.24em] text-[#d8c7b0]">Saha Hızı</p>
                 <h3 className="mt-3 text-3xl font-extrabold tracking-tight sm:text-5xl">Dakika kaybetmeden doğru ekip yola çıkar.</h3>
                 <p className="mt-4 max-w-md text-sm font-semibold leading-7 text-white/74 sm:text-base">
-                  Evrak, numune veya küçük paketlerde rota; aciliyet ve trafik akışına göre planlanır.
+                  Evrak, numune veya küçük paketlerde teslimat; aciliyet ve trafik akışına göre planlanır.
                 </p>
               </div>
             </div>
