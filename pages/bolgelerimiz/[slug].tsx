@@ -75,9 +75,17 @@ export default function DistrictPage({ district }: DistrictPageProps) {
                     prefetch={false}
                     className="rounded-[1.2rem] border border-[#d8c7b0]/80 bg-white/86 p-4 text-sm font-extrabold text-[#111418] transition hover:border-[#7a1e2d]/40 hover:text-[#7a1e2d]"
                   >
-                    {district.name} {label}
+                    {`${district.name} ${label}`}
                   </Link>
                 ))}
+              </div>
+              <div className="mt-6 rounded-[1.3rem] border border-[#7a1e2d]/25 bg-white p-5">
+                <p className="text-sm font-extrabold text-[#111418]">
+                  {district.name} çıkışlı gönderi için fiyat ve süre bilgisini hemen netleştirebilirsiniz.
+                </p>
+                <Link href="/iletisim" prefetch={false} className="mt-4 btn-primary">
+                  {district.name} kurye talebi oluştur
+                </Link>
               </div>
             </section>
             {relatedDistricts.length > 0 && (

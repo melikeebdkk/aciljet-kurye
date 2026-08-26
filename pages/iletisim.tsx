@@ -1,4 +1,6 @@
-import { PageSeo, breadcrumbSchema, serviceSchema } from "@/components/Seo";
+import Link from "next/link";
+import { PageSeo, breadcrumbSchema, faqSchema, serviceSchema } from "@/components/Seo";
+import { contactFaqs } from "@/data/faqs";
 
 export default function Iletisim() {
   return (
@@ -17,6 +19,7 @@ export default function Iletisim() {
             "Telefon ve WhatsApp üzerinden hızlı kurye talebi oluşturma.",
             "/iletisim"
           ),
+          faqSchema(contactFaqs),
         ]}
       />
       <main className="aciljet-shell">
@@ -60,6 +63,56 @@ export default function Iletisim() {
                 </a>
               </div>
             </aside>
+          </div>
+        </section>
+
+        <section className="bg-white px-4 py-14 sm:px-6 lg:px-8">
+          <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.9fr_1.1fr]">
+            <div>
+              <p className="text-xs font-extrabold uppercase tracking-[0.24em] text-[#7a1e2d]">Talep Öncesi</p>
+              <h2 className="mt-3 text-3xl font-extrabold tracking-tight text-[#111418] md:text-5xl">
+                Hizmet veya bölge sayfasından hızlıca seçim yapın.
+              </h2>
+              <p className="mt-5 text-base leading-8 text-[#111418]/68 md:text-lg">
+                Gönderi tipiniz ve ilçe detayınız netse iletişim daha hızlı ilerler. Aşağıdaki sayfalar talep öncesi doğru seçimi kolaylaştırır.
+              </p>
+            </div>
+            <div className="grid gap-3 sm:grid-cols-2">
+              {[
+                ["Moto kurye", "/moto-kurye"],
+                ["Araçlı kurye", "/aracli-kurye"],
+                ["Gece kurye", "/gece-kurye"],
+                ["İstanbul kurye bölgeleri", "/bolgelerimiz"],
+              ].map(([label, href]) => (
+                <Link
+                  key={href}
+                  href={href}
+                  prefetch={false}
+                  className="aciljet-champagne-panel rounded-[1.25rem] border border-[#d8c7b0]/80 p-5 text-sm font-extrabold text-[#111418] shadow-[0_12px_28px_rgba(42,13,21,0.05)] transition hover:border-[#7a1e2d]/40 hover:text-[#7a1e2d]"
+                >
+                  {label}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="px-4 py-14 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-4xl">
+            <div className="mx-auto mb-8 max-w-3xl text-center">
+              <p className="text-xs font-extrabold uppercase tracking-[0.24em] text-[#7a1e2d]">S.S.S</p>
+              <h2 className="mt-3 text-3xl font-extrabold tracking-tight text-[#111418] md:text-5xl">
+                İletişim ve talep hakkında sorular.
+              </h2>
+            </div>
+            <div className="space-y-3">
+              {contactFaqs.map((faq) => (
+                <details key={faq.question} className="aciljet-champagne-panel group rounded-[1.25rem] border border-[#d8c7b0]/70 p-5 shadow-[0_12px_28px_rgba(42,13,21,0.07)]">
+                  <summary className="cursor-pointer list-none text-lg font-extrabold text-[#111418] marker:hidden">{faq.question}</summary>
+                  <p className="mt-3 leading-7 text-[#111418]/65">{faq.answer}</p>
+                </details>
+              ))}
+            </div>
           </div>
         </section>
       </main>

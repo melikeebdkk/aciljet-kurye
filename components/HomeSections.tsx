@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { homeFaqs } from "@/data/faqs";
 
 const reasons = [
   ["Acil iş refleksi", "Talep geldiği anda alım noktası, teslim adresi ve paket tipi birlikte değerlendirilir; yönlendirme kararı bekletilmeden verilir."],
@@ -34,11 +35,13 @@ const stats = [
   ["Tek", "Net operasyon akışı"],
 ];
 
-const faqs = [
-  ["Acil kurye talebinde hangi bilgiler gerekir?", "Alım adresi, teslim adresi, paket boyutu ve aciliyet seviyesi yeterlidir. Bu bilgilerle uygun kurye modeli hızlıca belirlenir."],
-  ["Sadece moto kurye mi çalışır?", "Hayır. Motor, binek, Doblo, panelvan ve kamyonet seçenekleri gönderinin hacmine göre değerlendirilir."],
-  ["Gece kurye talebi alınır mı?", "Evet. AcilJet Kurye, mesai dışı talepler için de 7/24 yönlendirme yapabilecek yapıda konumlandırılır."],
-  ["Fiyat nasıl netleşir?", "Mesafe, paket hacmi ve seçilen teslimat modu birlikte hesaplanır; gereksiz araç veya süre maliyeti oluşturulmaz."],
+const featuredDistrictLinks = [
+  ["Kadıköy Kurye", "/bolgelerimiz/kadikoy-kurye"],
+  ["Ataşehir Kurye", "/bolgelerimiz/atasehir-kurye"],
+  ["Ümraniye Kurye", "/bolgelerimiz/umraniye-kurye"],
+  ["Beşiktaş Kurye", "/bolgelerimiz/besiktas-kurye"],
+  ["Şişli Kurye", "/bolgelerimiz/sisli-kurye"],
+  ["Bakırköy Kurye", "/bolgelerimiz/bakirkoy-kurye"],
 ];
 
 function SectionTitle({ eyebrow, title, text }: { eyebrow: string; title: string; text?: string }) {
@@ -191,10 +194,44 @@ export default function HomeSections() {
         </div>
       </section>
 
+      <section className="px-4 py-14 sm:px-6 lg:px-8">
+        <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
+          <div>
+            <SectionTitle
+              eyebrow="Bölge Bağlantıları"
+              title="Sık talep gelen ilçelerden hizmet sayfalarına hızlı geçiş."
+              text="İlçe detayları, gönderinin çıktığı bölgeye göre moto kurye, araçlı kurye ve iletişim adımlarına bağlanır."
+            />
+            <Link href="/bolgelerimiz" prefetch={false} className="btn-ghost">
+              Tüm bölgeleri gör
+            </Link>
+          </div>
+          <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
+            {featuredDistrictLinks.map(([label, href]) => (
+              <Link
+                key={href}
+                href={href}
+                prefetch={false}
+                className="aciljet-champagne-panel rounded-[1.25rem] border border-[#d8c7b0]/80 p-5 text-sm font-extrabold text-[#111418] shadow-[0_12px_28px_rgba(42,13,21,0.05)] transition hover:border-[#7a1e2d]/40 hover:text-[#7a1e2d]"
+              >
+                {label}
+              </Link>
+            ))}
+            <Link
+              href="/iletisim"
+              prefetch={false}
+              className="rounded-[1.25rem] border border-[#7a1e2d]/30 bg-[#7a1e2d] p-5 text-sm font-extrabold text-white shadow-[0_12px_28px_rgba(42,13,21,0.08)] transition hover:bg-[#111418]"
+            >
+              Acil kurye iletişim
+            </Link>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-white px-4 py-14 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
           <div className="mx-auto mb-8 max-w-3xl text-center"><p className="text-xs font-extrabold uppercase tracking-[0.24em] text-[#7a1e2d]">S.S.S</p><h2 className="mt-3 text-3xl font-extrabold tracking-tight text-[#111418] md:text-5xl">Aklınızdaki temel sorular.</h2></div>
-          <div className="space-y-3">{faqs.map(([question, answer]) => (<details key={question} className="aciljet-champagne-panel group rounded-[1.25rem] border border-[#d8c7b0]/70 p-5 shadow-[0_12px_28px_rgba(42,13,21,0.07)]"><summary className="cursor-pointer list-none text-lg font-extrabold text-[#111418] marker:hidden">{question}</summary><p className="mt-3 leading-7 text-[#111418]/65">{answer}</p></details>))}</div>
+          <div className="space-y-3">{homeFaqs.map((faq) => (<details key={faq.question} className="aciljet-champagne-panel group rounded-[1.25rem] border border-[#d8c7b0]/70 p-5 shadow-[0_12px_28px_rgba(42,13,21,0.07)]"><summary className="cursor-pointer list-none text-lg font-extrabold text-[#111418] marker:hidden">{faq.question}</summary><p className="mt-3 leading-7 text-[#111418]/65">{faq.answer}</p></details>))}</div>
         </div>
       </section>
     </div>

@@ -1,6 +1,17 @@
 import Image from "next/image";
-import { PageSeo, breadcrumbSchema, serviceSchema } from "@/components/Seo";
+import Link from "next/link";
+import { PageSeo, breadcrumbSchema, faqSchema, serviceSchema } from "@/components/Seo";
+import { serviceOverviewFaqs } from "@/data/faqs";
 import { serviceGroups } from "@/data/services";
+
+const districtLinks = [
+  ["Kadıköy moto kurye", "/bolgelerimiz/kadikoy-kurye"],
+  ["Beşiktaş VIP kurye", "/bolgelerimiz/besiktas-kurye"],
+  ["Ümraniye araçlı kurye", "/bolgelerimiz/umraniye-kurye"],
+  ["Bakırköy express kurye", "/bolgelerimiz/bakirkoy-kurye"],
+  ["Pendik kurye", "/bolgelerimiz/pendik-kurye"],
+  ["Gebze Kocaeli kurye", "/bolgelerimiz/gebze-kocaeli-kurye"],
+];
 
 export default function Hizmetlerimiz() {
   return (
@@ -20,6 +31,7 @@ export default function Hizmetlerimiz() {
             "Moto kurye, araçlı kurye, şehirlerarası kargo ve kurumsal lojistik hizmetleri.",
             "/hizmetlerimiz"
           ),
+          faqSchema(serviceOverviewFaqs),
         ]}
       />
       <main className="aciljet-shell">
@@ -73,6 +85,54 @@ export default function Hizmetlerimiz() {
             </div>
           </section>
         ))}
+
+        <section className="px-4 py-14 sm:px-6 lg:px-8">
+          <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
+            <div>
+              <p className="text-xs font-extrabold uppercase tracking-[0.24em] text-[#7a1e2d]">İlçe Bazlı Hizmetler</p>
+              <h2 className="mt-3 text-3xl font-extrabold tracking-tight text-[#111418] md:text-5xl">
+                Hizmetten bölge detayına, oradan hızlı talebe.
+              </h2>
+              <p className="mt-5 text-base leading-8 text-[#111418]/68 md:text-lg">
+                En çok talep gelen ilçelerde moto kurye, VIP kurye, express kurye ve araçlı kurye ihtiyacını ayrı sayfalarda destekliyoruz.
+              </p>
+              <Link href="/iletisim" prefetch={false} className="mt-6 btn-primary">
+                Hızlı talep oluştur
+              </Link>
+            </div>
+            <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
+              {districtLinks.map(([label, href]) => (
+                <Link
+                  key={href}
+                  href={href}
+                  prefetch={false}
+                  className="aciljet-champagne-panel rounded-[1.25rem] border border-[#d8c7b0]/80 p-5 text-sm font-extrabold text-[#111418] shadow-[0_12px_28px_rgba(42,13,21,0.05)] transition hover:border-[#7a1e2d]/40 hover:text-[#7a1e2d]"
+                >
+                  {label}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-white px-4 py-14 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-4xl">
+            <div className="mx-auto mb-8 max-w-3xl text-center">
+              <p className="text-xs font-extrabold uppercase tracking-[0.24em] text-[#7a1e2d]">S.S.S</p>
+              <h2 className="mt-3 text-3xl font-extrabold tracking-tight text-[#111418] md:text-5xl">
+                Hizmet seçimi hakkında sorular.
+              </h2>
+            </div>
+            <div className="space-y-3">
+              {serviceOverviewFaqs.map((faq) => (
+                <details key={faq.question} className="aciljet-champagne-panel group rounded-[1.25rem] border border-[#d8c7b0]/70 p-5 shadow-[0_12px_28px_rgba(42,13,21,0.07)]">
+                  <summary className="cursor-pointer list-none text-lg font-extrabold text-[#111418] marker:hidden">{faq.question}</summary>
+                  <p className="mt-3 leading-7 text-[#111418]/65">{faq.answer}</p>
+                </details>
+              ))}
+            </div>
+          </div>
+        </section>
       </main>
     </>
   );

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { GetStaticPaths, GetStaticProps } from "next";
-import { PageSeo, breadcrumbSchema, serviceSchema } from "@/components/Seo";
+import { PageSeo, breadcrumbSchema, faqSchema, serviceSchema } from "@/components/Seo";
 import { getServicePageBySlug, servicePages } from "@/data/services";
 import { regions } from "@/data/regions";
 
@@ -27,18 +27,7 @@ export default function ServiceLanding({ service }: ServiceLandingProps) {
             { name: service.title, path: pagePath },
           ]),
           serviceSchema(service.title, service.metaDescription, pagePath),
-          {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: service.faqs.map((faq) => ({
-              "@type": "Question",
-              name: faq.question,
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: faq.answer,
-              },
-            })),
-          },
+          faqSchema(service.faqs),
         ]}
       />
       <main className="aciljet-shell">
@@ -128,6 +117,17 @@ export default function ServiceLanding({ service }: ServiceLandingProps) {
                   {district.name} Kurye
                 </Link>
               ))}
+            </div>
+            <div className="mt-8 rounded-[1.5rem] border border-[#d8c7b0]/80 bg-white p-5 shadow-[0_12px_28px_rgba(42,13,21,0.05)]">
+              <p className="text-sm font-extrabold uppercase tracking-[0.18em] text-[#7a1e2d]">Sonraki adım</p>
+              <div className="mt-3 grid gap-4 md:grid-cols-[1fr_auto] md:items-center">
+                <p className="leading-7 text-[#111418]/68">
+                  İlçe detayını inceledikten sonra alım ve teslim adresini paylaşarak hızlı kurye talebini netleştirebilirsiniz.
+                </p>
+                <Link href="/iletisim" prefetch={false} className="btn-primary">
+                  İletişime geç
+                </Link>
+              </div>
             </div>
           </div>
         </section>

@@ -26,14 +26,13 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="relative min-h-[21rem] overflow-hidden rounded-[1.65rem] border border-[#d8c7b0]/80 bg-[#111418] p-6 text-white shadow-[0_22px_60px_rgba(17,20,24,0.18)] lg:min-h-[28rem]">
+          <div className="relative hidden min-h-[28rem] overflow-hidden rounded-[1.65rem] border border-[#d8c7b0]/80 bg-[#111418] p-6 text-white shadow-[0_22px_60px_rgba(17,20,24,0.18)] lg:block">
             <Image
-              src="/aciljet-motokurye-logo-hero.png"
+              src="/aciljet-motokurye-logo-hero.webp"
               alt=""
               fill
               sizes="(max-width: 1024px) 100vw, 38vw"
               className="object-cover object-[62%_center]"
-              priority={false}
             />
             <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(17,20,24,0.88)_0%,rgba(42,13,21,0.72)_48%,rgba(17,20,24,0.42)_100%)]" />
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_28%,rgba(122,30,45,0.30),transparent_42%),linear-gradient(180deg,rgba(17,20,24,0.15)_0%,rgba(17,20,24,0.72)_100%)]" />
