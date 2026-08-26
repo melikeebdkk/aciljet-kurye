@@ -15,10 +15,12 @@ const mainLinks = [
 ];
 
 const serviceLinks = [
-  ["Moto Kurye", "/hizmetlerimiz#moto-kurye"],
-  ["Araçlı Lojistik", "/hizmetlerimiz#aracli-lojistik"],
-  ["Şehirlerarası", "/hizmetlerimiz#sehirlerarasi"],
-  ["Kurumsal Çözümler", "/hizmetlerimiz#kurumsal-cozumler"],
+  ["Moto Kurye", "/moto-kurye"],
+  ["VIP Kurye", "/vip-kurye"],
+  ["Express Kurye", "/express-kurye"],
+  ["Araçlı Kurye", "/aracli-kurye"],
+  ["Gece Kurye", "/gece-kurye"],
+  ["Şehirlerarası", "/sehirlerarasi-kurye"],
 ];
 
 const regionLinks = [

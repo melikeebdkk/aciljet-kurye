@@ -13,13 +13,15 @@ const nav = [
 ];
 
 const serviceLinks = [
-  { title: "Moto Kurye Çözümleri", href: "/hizmetlerimiz#moto-kurye" },
-  { title: "Araçlı Lojistik & Filo", href: "/hizmetlerimiz#aracli-lojistik" },
-  { title: "Uçak & Otobüs Kargo", href: "/hizmetlerimiz#sehirlerarasi" },
-  { title: "Kurumsal İş Ortaklığı", href: "/hizmetlerimiz#kurumsal-cozumler" },
+  { title: "Moto Kurye", href: "/moto-kurye" },
+  { title: "VIP Kurye", href: "/vip-kurye" },
+  { title: "Express Kurye", href: "/express-kurye" },
+  { title: "Araçlı Kurye", href: "/aracli-kurye" },
+  { title: "Gece Kurye", href: "/gece-kurye" },
+  { title: "Şehirlerarası Kurye", href: "/sehirlerarasi-kurye" },
 ];
 
-const accentBars = ["bg-[#7a1e2d]", "bg-[#d8c7b0]", "bg-[#111418]", "bg-[#a3263a]"];
+const accentBars = ["bg-[#7a1e2d]", "bg-[#d8c7b0]", "bg-[#111418]", "bg-[#a3263a]", "bg-[#8a7258]", "bg-[#5f1724]"];
 const regionCardStyles = [
   "bg-[linear-gradient(135deg,#ffffff_0%,#fff7ec_100%)] hover:border-[#7a1e2d]/35",
   "bg-[linear-gradient(135deg,#ffffff_0%,#f8ecee_100%)] hover:border-[#7a1e2d]/35",

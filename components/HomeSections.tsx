@@ -8,10 +8,10 @@ const reasons = [
 ];
 
 const speeds = [
-  ["V.I.P. Kurye", "45 - 60 dk", "Tek gönderi, doğrudan akış, en hızlı teslimat planı.", "Acil"],
-  ["Express Kurye", "90 dk", "Öncelikli akışa alınan hızlı ve dengeli teslimat.", "Öncelikli"],
-  ["Normal Kurye", "180 dk", "Gün içi planlı gönderiler için ekonomik çözüm.", "Planlı"],
-  ["Gece Kuryesi", "7/24", "Mesai sonrası acil ihtiyaçlar için kesintisiz yönlendirme.", "Kesintisiz"],
+  ["V.I.P. Kurye", "45 - 60 dk", "Tek gönderi, doğrudan akış, en hızlı teslimat planı.", "Acil", "/vip-kurye"],
+  ["Express Kurye", "90 dk", "Öncelikli akışa alınan hızlı ve dengeli teslimat.", "Öncelikli", "/express-kurye"],
+  ["Normal Kurye", "180 dk", "Gün içi planlı gönderiler için ekonomik çözüm.", "Planlı", "/moto-kurye"],
+  ["Gece Kuryesi", "7/24", "Mesai sonrası acil ihtiyaçlar için kesintisiz yönlendirme.", "Kesintisiz", "/gece-kurye"],
 ];
 
 const fleet = [
@@ -95,8 +95,8 @@ export default function HomeSections() {
           </div>
           <div className="overflow-hidden rounded-[1.7rem] border border-[#d8c7b0]/80 bg-white/76 shadow-[0_22px_62px_rgba(42,13,21,0.12)] backdrop-blur">
             <div className="grid md:grid-cols-4">
-              {speeds.map(([title, time, text, tag], index) => (
-                <Link key={title} href="/hizmetlerimiz#moto-kurye" prefetch={false} className="group relative border-b border-[#d8c7b0]/60 px-5 py-7 transition hover:bg-[#fffaf2] md:border-b-0 md:border-r last:border-b-0 md:last:border-r-0">
+              {speeds.map(([title, time, text, tag, href], index) => (
+                <Link key={title} href={href} prefetch={false} className="group relative border-b border-[#d8c7b0]/60 px-5 py-7 transition hover:bg-[#fffaf2] md:border-b-0 md:border-r last:border-b-0 md:last:border-r-0">
                   <span className={["text-xs font-extrabold uppercase tracking-[0.18em]", index === 0 ? "text-[#7a1e2d]" : "text-[#8a7258]"].join(" ")}>{tag}</span>
                   <p className="mt-3 text-4xl font-extrabold tracking-tight text-[#111418] md:text-5xl">{time}</p>
                   <h3 className="mt-3 text-lg font-extrabold text-[#111418]">{title}</h3>
@@ -116,7 +116,7 @@ export default function HomeSections() {
               <p className="text-xs font-extrabold uppercase tracking-[0.24em] text-[#7a1e2d]">Araçlı Kurye & Lojistik</p>
               <h2 className="mt-3 text-3xl font-extrabold tracking-tight text-[#111418] md:text-5xl">Paket büyüdüğünde çözüm büyüsün, maliyet şişmesin.</h2>
               <p className="mt-5 text-base leading-8 text-[#111418]/68 md:text-lg">AcilJet, motora sığmayan gönderilerde teslimat ihtiyacını araç tipiyle eşleştirir. Böylece küçük işe büyük araç, büyük işe yetersiz çözüm mantığı oluşmaz.</p>
-              <Link href="/hizmetlerimiz#aracli-lojistik" prefetch={false} className="mt-6 inline-flex rounded-2xl border border-[#7a1e2d]/20 bg-white px-5 py-3 text-sm font-extrabold uppercase tracking-wide text-[#7a1e2d] shadow-[0_14px_30px_rgba(216,199,176,0.22)] transition hover:border-[#7a1e2d] hover:bg-[#7a1e2d] hover:text-white">Araçlı lojistiği incele</Link>
+              <Link href="/aracli-kurye" prefetch={false} className="mt-6 inline-flex rounded-2xl border border-[#7a1e2d]/20 bg-white px-5 py-3 text-sm font-extrabold uppercase tracking-wide text-[#7a1e2d] shadow-[0_14px_30px_rgba(216,199,176,0.22)] transition hover:border-[#7a1e2d] hover:bg-[#7a1e2d] hover:text-white">Araçlı kurye sayfasını incele</Link>
             </div>
             <div className="overflow-hidden rounded-[1.7rem] border border-[#d8c7b0]/80 bg-white shadow-[0_18px_55px_rgba(42,13,21,0.10)]">
               <div className="relative min-h-[17rem] border-b border-[#d8c7b0]/70 sm:min-h-[22rem]">
@@ -133,7 +133,7 @@ export default function HomeSections() {
               </div>
               <div className="grid sm:grid-cols-2">
                 {fleet.map(([name, desc], index) => (
-                  <Link key={name} href="/hizmetlerimiz#aracli-lojistik" prefetch={false} className="border-b border-[#d8c7b0]/60 px-5 py-5 transition hover:bg-[#fffaf2] sm:border-r even:sm:border-r-0">
+                  <Link key={name} href="/aracli-kurye" prefetch={false} className="border-b border-[#d8c7b0]/60 px-5 py-5 transition hover:bg-[#fffaf2] sm:border-r even:sm:border-r-0">
                     <span className={["mb-4 block h-1 w-12 rounded-full", index === 1 ? "bg-[#7a1e2d]" : "bg-[#d8c7b0]"].join(" ")} />
                     <p className="text-lg font-extrabold text-[#111418]">{name}</p>
                     <p className="mt-2 text-sm leading-6 text-[#111418]/62">{desc}</p>
@@ -173,7 +173,7 @@ export default function HomeSections() {
             </div>
             <div className="overflow-hidden rounded-[1.7rem] border border-[#d8c7b0]/80 bg-white shadow-[0_18px_55px_rgba(42,13,21,0.08)]">
               {longDistance.map(([title, text]) => (
-                <Link key={title} href="/hizmetlerimiz#sehirlerarasi" prefetch={false} className="grid gap-4 border-b border-[#d8c7b0]/60 p-6 transition hover:bg-[#fffaf2] md:grid-cols-[1fr_auto] md:items-center last:border-b-0">
+                <Link key={title} href="/sehirlerarasi-kurye" prefetch={false} className="grid gap-4 border-b border-[#d8c7b0]/60 p-6 transition hover:bg-[#fffaf2] md:grid-cols-[1fr_auto] md:items-center last:border-b-0">
                   <div><h3 className="text-xl font-extrabold text-[#111418]">{title}</h3><p className="mt-2 leading-7 text-[#111418]/65">{text}</p></div>
                   <span className="text-sm font-extrabold text-[#7a1e2d]">Detayı gör</span>
                 </Link>

@@ -1,61 +1,6 @@
 import Image from "next/image";
 import { PageSeo, breadcrumbSchema, serviceSchema } from "@/components/Seo";
-
-const groups = [
-  {
-    id: "moto-kurye",
-    eyebrow: "Hız odaklı",
-    title: "Moto Kurye Hizmetleri",
-    intro: "AcilJet moto kurye hizmeti; evrak, küçük paket, numune ve zaman hassasiyeti olan teslimatlarda hızlı hareket etmek için kurgulanır.",
-    visual: "/aciljet-moto-service.webp",
-    visualAlt: "AcilJet moto kurye hizmetleri",
-    items: [
-      ["V.I.P. Kurye", "45-60 Dakika", "En acil gönderilerde paket başka teslimatlarla birleştirilmeden öncelikli teslimat planıyla ilerler."],
-      ["Express Kurye", "90 Dakika", "Acil ama tekil teslimat gerektirmeyen gönderiler için hız ve maliyet dengesi kurulur."],
-      ["Normal Kurye", "180 Dakika", "Gün içinde yetişmesi gereken planlı paketler için ekonomik ve kontrollü teslimat yapılır."],
-      ["Gece Kuryesi", "7/24", "Mesai sonrası ortaya çıkan evrak, paket ve operasyon ihtiyaçları için yönlendirme sağlanır."],
-    ],
-  },
-  {
-    id: "aracli-lojistik",
-    eyebrow: "Hacim odaklı",
-    title: "Araçlı Kurye & Lojistik",
-    intro: "Motora sığmayan, hassas veya çok adetli gönderilerde AcilJet doğru araç tipiyle teslimat planı oluşturur.",
-    visual: "/aciljet-parcel-van-premium.webp",
-    visualAlt: "Araçlı kurye için koli ve panelvan hazırlığı",
-    items: [
-      ["Hafif Ticari Kurye", "Binek & Doblo", "Orta hacimli paketler, cihazlar ve hassas teslimatlar için korunaklı araç seçeneği."],
-      ["Panelvan & Kamyonet", "Hacimli gönderi", "Koli, numune, mağaza çıkışı veya üretim malzemesi gibi büyük gönderiler için tek seferlik taşıma planı."],
-      ["Esnek Filo Yönetimi", "Maliyet kontrolü", "Paket boyutu ve teslimat yönü dikkate alınarak gereksiz büyük araç maliyeti engellenir."],
-    ],
-  },
-  {
-    id: "sehirlerarasi",
-    eyebrow: "Türkiye geneli",
-    title: "Uçak & Otobüs Kargo",
-    intro: "Şehir dışına çıkacak gönderilerde hız, bütçe ve teslimat güvenliği birlikte değerlendirilir.",
-    visual: "/service-intercity.webp",
-    visualAlt: "Şehirler arası kurye ve kargo aktarımı",
-    items: [
-      ["Uçak Kargo", "Havalimanı aktarmalı", "Uzak şehirlere hızlı ulaşması gereken evrak ve numuneler için havayolu bağlantısı kurulur."],
-      ["Otobüs Kargo", "Terminal teslimatı", "Ekonomik şehir dışı gönderilerde uygun sefer ve terminal bağlantısı planlanır."],
-      ["Çevre İl Kurye", "Kapıdan kapıya", "Bursa, Kocaeli ve Tekirdağ gibi yakın hatlarda doğrudan teslimat seçeneği değerlendirilir."],
-    ],
-  },
-  {
-    id: "kurumsal-cozumler",
-    eyebrow: "İş ortaklığı",
-    title: "Kurumsal Çözümler",
-    intro: "Düzenli gönderi trafiği olan işletmeler için AcilJet, tekil kurye çağrısından daha planlı bir operasyon modeli sunar.",
-    visual: "/aciljet-region-map.webp",
-    visualAlt: "Kurumsal lojistik teslimat planlama görseli",
-    items: [
-      ["E-Ticaret Desteği", "Günlük çıkış", "Siparişlerin müşteriye hızlı ve marka itibarını koruyacak şekilde ulaşması hedeflenir."],
-      ["Sözleşmeli Kurye", "Aylık model", "Düzenli evrak, numune veya şube arası teslimatlar için devamlı iş akışı kurulur."],
-      ["Toplu Dağıtım", "Planlı dağıtım", "Davetiye, fatura, hediye veya kampanya paketleri adres listesine göre organize edilir."],
-    ],
-  },
-];
+import { serviceGroups } from "@/data/services";
 
 export default function Hizmetlerimiz() {
   return (
@@ -90,7 +35,7 @@ export default function Hizmetlerimiz() {
           </div>
         </section>
 
-        {groups.map((group, index) => (
+        {serviceGroups.map((group, index) => (
           <section key={group.id} id={group.id} className={["scroll-mt-32 px-4 py-14 sm:px-6 lg:px-8", index % 2 ? "bg-white" : ""].join(" ")}>
             <div className="mx-auto max-w-7xl">
               <div className={["grid gap-8 lg:items-center", index % 2 ? "lg:grid-cols-[1.1fr_0.9fr]" : "lg:grid-cols-[0.9fr_1.1fr]"].join(" ")}>
@@ -115,13 +60,13 @@ export default function Hizmetlerimiz() {
               </div>
 
               <div className="mt-7 overflow-hidden rounded-[1.5rem] border border-[#d8c7b0]/80 bg-white shadow-[0_16px_42px_rgba(42,13,21,0.07)]">
-                {group.items.map(([name, time, text], itemIndex) => (
-                  <article key={name} className="grid gap-3 border-b border-[#d8c7b0]/60 p-6 last:border-b-0 md:grid-cols-[0.35fr_1fr]">
+                {group.items.map((item, itemIndex) => (
+                  <article key={item.name} className="grid gap-3 border-b border-[#d8c7b0]/60 p-6 last:border-b-0 md:grid-cols-[0.35fr_1fr]">
                     <div>
-                      <p className={["text-xs font-extrabold uppercase tracking-[0.16em]", itemIndex === 0 ? "text-[#7a1e2d]" : "text-[#8a7258]"].join(" ")}>{time}</p>
-                      <h3 className="mt-2 text-xl font-extrabold text-[#111418]">{name}</h3>
+                      <p className={["text-xs font-extrabold uppercase tracking-[0.16em]", itemIndex === 0 ? "text-[#7a1e2d]" : "text-[#8a7258]"].join(" ")}>{item.label}</p>
+                      <h3 className="mt-2 text-xl font-extrabold text-[#111418]">{item.name}</h3>
                     </div>
-                    <p className="leading-7 text-[#111418]/66">{text}</p>
+                    <p className="leading-7 text-[#111418]/66">{item.text}</p>
                   </article>
                 ))}
               </div>
