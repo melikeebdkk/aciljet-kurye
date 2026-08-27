@@ -26,8 +26,8 @@ const serviceLinks = [
 const regionLinks = [
   ["Kadıköy", "/bolgelerimiz/kadikoy-kurye"],
   ["Ataşehir", "/bolgelerimiz/atasehir-kurye"],
-  ["Maslak", "/bolgelerimiz/maslak-kurye"],
-  ["İkitelli", "/bolgelerimiz/ikitelli-kurye"],
+  ["Maslak", "/bolgelerimiz/sariyer-maslak-kurye"],
+  ["İkitelli", "/bolgelerimiz/basaksehir-kurye"],
   ["Gebze & Kocaeli", "/bolgelerimiz/gebze-kocaeli-kurye"],
 ];
 

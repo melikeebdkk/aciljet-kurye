@@ -40,7 +40,7 @@ const featuredDistrictLinks = [
   ["Ataşehir Kurye", "/bolgelerimiz/atasehir-kurye"],
   ["Ümraniye Kurye", "/bolgelerimiz/umraniye-kurye"],
   ["Beşiktaş Kurye", "/bolgelerimiz/besiktas-kurye"],
-  ["Şişli Kurye", "/bolgelerimiz/sisli-kurye"],
+  ["Şişli Kurye", "/bolgelerimiz/sisli-nisantasi-kurye"],
   ["Bakırköy Kurye", "/bolgelerimiz/bakirkoy-kurye"],
 ];
 

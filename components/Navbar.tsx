@@ -32,7 +32,7 @@ const featuredDistrictLinks = [
   { title: "Ataşehir Kurye", href: "/bolgelerimiz/atasehir-kurye" },
   { title: "Ümraniye Kurye", href: "/bolgelerimiz/umraniye-kurye" },
   { title: "Beşiktaş Kurye", href: "/bolgelerimiz/besiktas-kurye" },
-  { title: "Şişli Kurye", href: "/bolgelerimiz/sisli-kurye" },
+  { title: "Şişli Kurye", href: "/bolgelerimiz/sisli-nisantasi-kurye" },
   { title: "Bakırköy Kurye", href: "/bolgelerimiz/bakirkoy-kurye" },
   { title: "Pendik Kurye", href: "/bolgelerimiz/pendik-kurye" },
   { title: "Gebze Kocaeli Kurye", href: "/bolgelerimiz/gebze-kocaeli-kurye" },
