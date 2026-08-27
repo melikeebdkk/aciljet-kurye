@@ -34,8 +34,8 @@ export default function Hero() {
               sizes="(max-width: 1024px) calc(100vw - 2.5rem), 38vw"
               className="object-cover object-[62%_center]"
             />
-            <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(17,20,24,0.88)_0%,rgba(42,13,21,0.66)_48%,rgba(17,20,24,0.82)_100%)] lg:bg-[linear-gradient(90deg,rgba(17,20,24,0.88)_0%,rgba(42,13,21,0.72)_48%,rgba(17,20,24,0.42)_100%)]" />
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_78%_24%,rgba(122,30,45,0.30),transparent_42%),linear-gradient(180deg,rgba(17,20,24,0.12)_0%,rgba(17,20,24,0.72)_100%)]" />
+            <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(17,20,24,0.68)_0%,rgba(42,13,21,0.46)_48%,rgba(17,20,24,0.66)_100%)] lg:bg-[linear-gradient(90deg,rgba(17,20,24,0.74)_0%,rgba(42,13,21,0.54)_48%,rgba(17,20,24,0.24)_100%)]" />
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_78%_24%,rgba(122,30,45,0.20),transparent_42%),linear-gradient(180deg,rgba(17,20,24,0.04)_0%,rgba(17,20,24,0.56)_100%)]" />
             <div className="relative z-10 flex h-full flex-col justify-between">
               <div>
                 <p className="text-[0.66rem] font-extrabold uppercase tracking-[0.22em] text-[#d8c7b0] sm:text-xs sm:tracking-[0.24em]">Operasyon Mantığı</p>
@@ -43,7 +43,7 @@ export default function Hero() {
               </div>
               <div className="mt-5 grid gap-2.5 sm:mt-8 sm:gap-3">
                 {["Acil alım yönlendirmesi", "Moto veya araçlı ekip seçimi", "Teslimat süresi ve fiyat netliği"].map((item) => (
-                  <div key={item} className="rounded-[1.15rem] border border-white/16 bg-white/[0.08] px-4 py-2.5 backdrop-blur sm:rounded-2xl sm:py-3">
+                  <div key={item} className="rounded-[1.15rem] border border-white/24 bg-[#111418]/45 px-4 py-2.5 backdrop-blur-[2px] sm:rounded-2xl sm:py-3">
                     <span className="mb-2 block h-1 w-10 rounded-full bg-[#d8c7b0]" />
                     <p className="text-sm font-extrabold text-white/90">{item}</p>
                   </div>
