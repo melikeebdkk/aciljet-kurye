@@ -2,7 +2,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import { useRouter } from "next/router";
-import { regions } from "../data/regions";
 
 const nav = [
   { name: "Anasayfa", href: "/" },
@@ -19,6 +18,24 @@ const serviceLinks = [
   { title: "Araçlı Kurye", href: "/aracli-kurye" },
   { title: "Gece Kurye", href: "/gece-kurye" },
   { title: "Şehirlerarası Kurye", href: "/sehirlerarasi-kurye" },
+];
+
+const regionLinks = [
+  { title: "Avrupa Yakası", href: "/bolgelerimiz#avrupa-yakasi" },
+  { title: "Anadolu Yakası", href: "/bolgelerimiz#anadolu-yakasi" },
+  { title: "Gebze & Kocaeli Hattı", href: "/bolgelerimiz#gebze-kocaeli" },
+  { title: "Şehirlerarası", href: "/bolgelerimiz#sehirlerarasi" },
+];
+
+const featuredDistrictLinks = [
+  { title: "Kadıköy Kurye", href: "/bolgelerimiz/kadikoy-kurye" },
+  { title: "Ataşehir Kurye", href: "/bolgelerimiz/atasehir-kurye" },
+  { title: "Ümraniye Kurye", href: "/bolgelerimiz/umraniye-kurye" },
+  { title: "Beşiktaş Kurye", href: "/bolgelerimiz/besiktas-kurye" },
+  { title: "Şişli Kurye", href: "/bolgelerimiz/sisli-kurye" },
+  { title: "Bakırköy Kurye", href: "/bolgelerimiz/bakirkoy-kurye" },
+  { title: "Pendik Kurye", href: "/bolgelerimiz/pendik-kurye" },
+  { title: "Gebze Kocaeli Kurye", href: "/bolgelerimiz/gebze-kocaeli-kurye" },
 ];
 
 const accentBars = ["bg-[#7a1e2d]", "bg-[#d8c7b0]", "bg-[#111418]", "bg-[#a3263a]", "bg-[#8a7258]", "bg-[#5f1724]"];
@@ -59,10 +76,12 @@ export default function Navbar() {
             ) : item.href === "/bolgelerimiz" ? (
               <div key={item.name} className="group relative py-7">
                 <Link href={item.href} prefetch={false} className={linkClass(item.href)}>{item.name}</Link>
-                <div className="pointer-events-none absolute left-1/2 top-[4.2rem] w-[820px] -translate-x-1/2 translate-y-2 overflow-hidden rounded-[1.35rem] border border-[#d8c7b0]/80 bg-white p-3 opacity-0 shadow-[0_28px_80px_rgba(42,13,21,0.20)] transition duration-200 group-hover:pointer-events-auto group-hover:translate-y-0 group-hover:opacity-100">
+                <div className="pointer-events-none absolute left-1/2 top-[4.2rem] w-[680px] -translate-x-1/2 translate-y-2 overflow-hidden rounded-[1.35rem] border border-[#d8c7b0]/80 bg-white p-3 opacity-0 shadow-[0_28px_80px_rgba(42,13,21,0.20)] transition duration-200 group-hover:pointer-events-auto group-hover:translate-y-0 group-hover:opacity-100">
                   <div className="pointer-events-none absolute inset-0 aciljet-champagne-panel" />
                   <div className="relative"><p className="px-2 pb-3 pt-1 text-xs font-extrabold uppercase tracking-[0.2em] text-[#7a1e2d]">Bölgelerimiz</p><div className="grid gap-3 lg:grid-cols-2">
-                    {regions.map((region, index) => (<div key={region.id} className={["rounded-[1rem] border border-[#d8c7b0]/75 p-3 transition", regionCardStyles[index] || "bg-white"].join(" ")}><Link href={`/bolgelerimiz#${region.id}`} prefetch={false} className="flex items-center gap-3"><span className={["h-9 w-1.5 rounded-full", accentBars[index] || "bg-[#7a1e2d]"].join(" ")} /><span className="block text-sm font-extrabold text-[#111418] transition hover:text-[#7a1e2d]">{region.eyebrow}</span></Link><div className="mt-3 grid grid-cols-2 gap-1.5">{region.districts.map((district) => (<a key={district.slug} href={`/bolgelerimiz/${district.slug}`} className="rounded-xl border border-[#d8c7b0]/70 bg-white/86 px-3 py-2 text-xs font-bold leading-5 text-[#111418]/72 shadow-[0_6px_14px_rgba(42,13,21,0.035)] transition hover:border-[#7a1e2d]/30 hover:bg-[#7a1e2d] hover:text-white">{district.name}</a>))}</div></div>))}
+                    {regionLinks.map((region, index) => (<Link key={region.href} href={region.href} prefetch={false} className={["flex items-center gap-3 rounded-[1rem] border border-[#d8c7b0]/75 p-3 transition", regionCardStyles[index] || "bg-white"].join(" ")}><span className={["h-9 w-1.5 rounded-full", accentBars[index] || "bg-[#7a1e2d]"].join(" ")} /><span className="block text-sm font-extrabold text-[#111418] transition hover:text-[#7a1e2d]">{region.title}</span></Link>))}
+                  </div><div className="mt-3 grid grid-cols-2 gap-1.5">
+                    {featuredDistrictLinks.map((district) => (<Link key={district.href} href={district.href} prefetch={false} className="rounded-xl border border-[#d8c7b0]/70 bg-white/86 px-3 py-2 text-xs font-bold leading-5 text-[#111418]/72 shadow-[0_6px_14px_rgba(42,13,21,0.035)] transition hover:border-[#7a1e2d]/30 hover:bg-[#7a1e2d] hover:text-white">{district.title}</Link>))}
                   </div></div>
                 </div>
               </div>

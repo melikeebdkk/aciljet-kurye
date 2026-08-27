@@ -1,11 +1,26 @@
 import Head from "next/head";
 import type { AppProps } from "next/app";
+import { Manrope, Sora } from "next/font/google";
 import "@/styles/globals.css";
 import Navbar from "@/components/Navbar";
 import FloatingCTA from "@/components/FloatingCTA";
 import Footer from "@/components/Footer";
 import Script from "next/script";
 import { PHONE_NUMBER, SITE_NAME, SITE_URL } from "@/components/Seo";
+
+const manrope = Manrope({
+  subsets: ["latin-ext"],
+  display: "swap",
+  variable: "--font-manrope",
+  weight: ["400", "500", "600", "700", "800"],
+});
+
+const sora = Sora({
+  subsets: ["latin-ext"],
+  display: "swap",
+  variable: "--font-sora",
+  weight: ["600", "700", "800"],
+});
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   const localBusinessSchema = {
@@ -49,25 +64,38 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         />
       </Head>
 
-      <Script
-        strategy="lazyOnload"
-        src="https://www.googletagmanager.com/gtag/js?id=G-13QLYYGSJ4"
-      />
-      <Script id="ga4-init" strategy="lazyOnload">
+      <Script id="ga4-delayed-loader" strategy="afterInteractive">
         {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-13QLYYGSJ4');
+          (function () {
+            var loaded = false;
+            function loadAnalytics() {
+              if (loaded) return;
+              loaded = true;
+              var script = document.createElement('script');
+              script.async = true;
+              script.src = 'https://www.googletagmanager.com/gtag/js?id=G-13QLYYGSJ4';
+              document.head.appendChild(script);
+              window.dataLayer = window.dataLayer || [];
+              window.gtag = function(){dataLayer.push(arguments);}
+              window.gtag('js', new Date());
+              window.gtag('config', 'G-13QLYYGSJ4');
+            }
+            ['pointerdown', 'keydown', 'scroll', 'touchstart'].forEach(function(eventName) {
+              window.addEventListener(eventName, loadAnalytics, { once: true, passive: true });
+            });
+            window.setTimeout(loadAnalytics, 5000);
+          })();
         `}
       </Script>
 
-      <Navbar />
-      <FloatingCTA />
-      <main className="pb-24 pt-24 md:pt-28 lg:pb-0">
-        <Component {...pageProps} />
-      </main>
-      <Footer />
+      <div className={`${manrope.className} ${manrope.variable} ${sora.variable}`}>
+        <Navbar />
+        <FloatingCTA />
+        <main className="pb-24 pt-24 md:pt-28 lg:pb-0">
+          <Component {...pageProps} />
+        </main>
+        <Footer />
+      </div>
     </>
   );
 }
