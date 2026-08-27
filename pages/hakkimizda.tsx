@@ -63,7 +63,7 @@ export default function Hakkimizda() {
         <section className="bg-white px-4 py-14 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-7xl">
             <div className="mx-auto mb-8 max-w-3xl text-center">
-              <p className="text-xs font-extrabold uppercase tracking-[0.24em] text-[#7a1e2d]">Neden AcilJet?</p>
+              <p className="text-xs font-extrabold uppercase tracking-[0.24em] text-[#7a1e2d]">Neden AcilJet Kurye?</p>
               <h2 className="mt-3 text-3xl font-extrabold tracking-tight text-[#111418] md:text-5xl">
                 Acil teslimatta hız kadar netlik de önemlidir.
               </h2>

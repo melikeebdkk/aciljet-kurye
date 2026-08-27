@@ -6,7 +6,7 @@ export default function Iletisim() {
   return (
     <>
       <PageSeo
-        title="Acil Kurye İletişim | 7/24 Telefon ve WhatsApp | AcilJet"
+        title="Acil Kurye İletişim | 7/24 Telefon ve WhatsApp | AcilJet Kurye"
         description="AcilJet Kurye iletişim hattı: İstanbul içi moto kurye, VIP kurye, express kurye ve araçlı kurye talepleri için telefon veya WhatsApp ile ulaşın."
         path="/iletisim"
         jsonLd={[
@@ -31,7 +31,7 @@ export default function Iletisim() {
                 Acil gönderi için beklemeyin, doğrudan ulaşın.
               </h1>
               <p className="mt-5 max-w-3xl text-base leading-8 text-[#111418]/68 md:text-lg">
-                Form doldurup cevap beklemek yerine alım adresini, teslim adresini ve paket bilgisini iletin. AcilJet ekibi uygun teslimat modelini hızlıca netleştirir.
+                Form doldurup cevap beklemek yerine alım adresini, teslim adresini ve paket bilgisini iletin. AcilJet Kurye ekibi uygun teslimat modelini hızlıca netleştirir.
               </p>
               <div className="mt-8 grid gap-3 sm:grid-cols-3">
                 {["Adres bilgisi", "Paket hacmi", "Aciliyet modu"].map((item) => (

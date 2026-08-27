@@ -34,7 +34,7 @@ export default function ServiceLanding({ service }: ServiceLandingProps) {
         <section className="px-4 py-14 sm:px-6 lg:px-8">
           <div className="mx-auto grid max-w-7xl overflow-hidden rounded-[2rem] border border-[#d8c7b0]/80 bg-white shadow-soft lg:grid-cols-[1.02fr_0.98fr]">
             <div className="aciljet-champagne-panel p-6 sm:p-10 lg:p-14">
-              <p className="text-xs font-extrabold uppercase tracking-[0.24em] text-[#7a1e2d]">AcilJet Hizmetleri</p>
+              <p className="text-xs font-extrabold uppercase tracking-[0.24em] text-[#7a1e2d]">AcilJet Kurye Hizmetleri</p>
               <h1 className="mt-4 max-w-4xl text-4xl font-extrabold tracking-tight text-[#111418] md:text-6xl">
                 {service.heroTitle}
               </h1>

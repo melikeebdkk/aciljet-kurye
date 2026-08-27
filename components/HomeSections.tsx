@@ -59,7 +59,7 @@ export default function HomeSections() {
     <div className="aciljet-shell">
       <section className="px-4 py-14 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl">
-          <SectionTitle eyebrow="Neden AcilJet?" title="Acil işlerde hızlı karar, doğru yönlendirme ve temiz iletişim." text="AcilJet'in dili gösterişli vaatlerden çok, teslimat anında işe yarayan net operasyona dayanır." />
+          <SectionTitle eyebrow="Neden AcilJet Kurye?" title="Acil işlerde hızlı karar, doğru yönlendirme ve temiz iletişim." text="AcilJet Kurye'nin dili gösterişli vaatlerden çok, teslimat anında işe yarayan net operasyona dayanır." />
           <div className="overflow-hidden rounded-[1.7rem] border border-[#d8c7b0]/80 bg-white shadow-[0_20px_60px_rgba(42,13,21,0.10)]">
             <div className="grid divide-y divide-[#d8c7b0]/60 md:grid-cols-3 md:divide-x md:divide-y-0">
               {reasons.map(([title, text], index) => (
@@ -118,7 +118,7 @@ export default function HomeSections() {
             <div>
               <p className="text-xs font-extrabold uppercase tracking-[0.24em] text-[#7a1e2d]">Araçlı Kurye & Lojistik</p>
               <h2 className="mt-3 text-3xl font-extrabold tracking-tight text-[#111418] md:text-5xl">Paket büyüdüğünde çözüm büyüsün, maliyet şişmesin.</h2>
-              <p className="mt-5 text-base leading-8 text-[#111418]/68 md:text-lg">AcilJet, motora sığmayan gönderilerde teslimat ihtiyacını araç tipiyle eşleştirir. Böylece küçük işe büyük araç, büyük işe yetersiz çözüm mantığı oluşmaz.</p>
+              <p className="mt-5 text-base leading-8 text-[#111418]/68 md:text-lg">AcilJet Kurye, motora sığmayan gönderilerde teslimat ihtiyacını araç tipiyle eşleştirir. Böylece küçük işe büyük araç, büyük işe yetersiz çözüm mantığı oluşmaz.</p>
               <Link href="/aracli-kurye" prefetch={false} className="mt-6 inline-flex rounded-2xl border border-[#7a1e2d]/20 bg-white px-5 py-3 text-sm font-extrabold uppercase tracking-wide text-[#7a1e2d] shadow-[0_14px_30px_rgba(216,199,176,0.22)] transition hover:border-[#7a1e2d] hover:bg-[#7a1e2d] hover:text-white">Araçlı kurye sayfasını incele</Link>
             </div>
             <div className="overflow-hidden rounded-[1.7rem] border border-[#d8c7b0]/80 bg-white shadow-[0_18px_55px_rgba(42,13,21,0.10)]">

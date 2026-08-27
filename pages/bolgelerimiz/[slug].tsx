@@ -114,7 +114,7 @@ export default function DistrictPage({ district }: DistrictPageProps) {
                 <p className="mt-4 text-2xl font-extrabold leading-tight">{district.quickStat}</p>
               </div>
               <div className="rounded-[1.5rem] border border-[#d8c7b0]/80 bg-white/82 p-5">
-                <p className="text-sm font-extrabold uppercase tracking-[0.18em] text-[#7a1e2d]">AcilJet yaklaşımı</p>
+                <p className="text-sm font-extrabold uppercase tracking-[0.18em] text-[#7a1e2d]">AcilJet Kurye yaklaşımı</p>
                 <p className="mt-3 leading-7 text-[#111418]/70">
                   Bu bölgedeki gönderilerde paket hacmi, teslimat aciliyeti ve adres bilgisi birlikte değerlendirilir. Talep için sabit telefon veya WhatsApp panelinden hızlıca ulaşabilirsiniz.
                 </p>

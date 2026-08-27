@@ -13,9 +13,9 @@ export default function Hero() {
               Acil kurye operasyonu
             </p>
             <h1 className="mt-6 max-w-5xl text-[2.35rem] font-extrabold leading-[1.02] tracking-tight text-[#111418] min-[420px]:text-[2.75rem] sm:text-6xl lg:text-[5.25rem]">
-              Acil gönderiniz için
+              AcilJet Kurye
               <br />
-              <span className="text-[#7a1e2d]">hızlı plan, net teslimat.</span>
+              <span className="text-[#7a1e2d]">İstanbul moto kurye ve 7/24 acil kurye.</span>
             </h1>
             <p className="mt-6 max-w-2xl text-base font-semibold leading-8 text-[#111418]/68 md:text-lg">
               AcilJet Kurye; İstanbul içi moto kurye, araçlı kurye ve şehirlerarası teslimat taleplerinde hızlı karar, doğru ekip ve kontrollü operasyon diliyle çalışır.

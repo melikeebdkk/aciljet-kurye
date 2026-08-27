@@ -8,7 +8,7 @@ export default function Bolgelerimiz() {
   return (
     <>
       <PageSeo
-        title="İstanbul Kurye Bölgeleri | Anadolu ve Avrupa Yakası | AcilJet"
+        title="İstanbul Kurye Bölgeleri | Anadolu ve Avrupa Yakası | AcilJet Kurye"
         description="AcilJet Kurye; İstanbul Anadolu Yakası, Avrupa Yakası, Gebze, Kocaeli ve şehirlerarası teslimat bölgelerinde hızlı kurye hizmeti verir."
         path="/bolgelerimiz"
         image="/aciljet-region-map.webp"
@@ -33,7 +33,7 @@ export default function Bolgelerimiz() {
                 İstanbul içi ve çevre hatlarda acil teslimat ağı.
               </h1>
               <p className="mt-5 max-w-3xl text-base leading-8 text-[#111418]/68 md:text-lg">
-                AcilJet; Anadolu Yakası, Avrupa Yakası, şehirlerarası ve Gebze-Kocaeli hattını ayrı operasyon karakterleriyle ele alır.
+                AcilJet Kurye; Anadolu Yakası, Avrupa Yakası, şehirlerarası ve Gebze-Kocaeli hattını ayrı operasyon karakterleriyle ele alır.
               </p>
               <div className="mt-8 grid gap-3 sm:grid-cols-2">
                 {regions.map((region, index) => (
@@ -51,7 +51,7 @@ export default function Bolgelerimiz() {
             <div className="relative min-h-[20rem] border-t border-[#d8c7b0]/70 lg:min-h-full lg:border-l lg:border-t-0">
               <Image
                 src="/aciljet-region-map.webp"
-                alt="AcilJet hizmet bölgeleri ve teslimat ağı"
+                alt="AcilJet Kurye hizmet bölgeleri ve teslimat ağı"
                 fill
                 sizes="(max-width: 1024px) 100vw, 560px"
                 className="object-cover object-center"

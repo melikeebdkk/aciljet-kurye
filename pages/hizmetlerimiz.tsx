@@ -17,7 +17,7 @@ export default function Hizmetlerimiz() {
   return (
     <>
       <PageSeo
-        title="Moto Kurye, Araçlı Kurye ve VIP Kurye Hizmetleri | AcilJet"
+        title="Moto Kurye, Araçlı Kurye ve VIP Kurye Hizmetleri | AcilJet Kurye"
         description="AcilJet Kurye; moto kurye, VIP kurye, express kurye, araçlı kurye, uçak kargo, otobüs kargo ve kurumsal lojistik çözümleri sunar."
         path="/hizmetlerimiz"
         image="/aciljet-moto-service.webp"
@@ -37,12 +37,12 @@ export default function Hizmetlerimiz() {
       <main className="aciljet-shell">
         <section className="px-4 py-14 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-7xl rounded-[2rem] border border-[#d8c7b0]/80 aciljet-champagne-panel p-6 shadow-soft sm:p-10 lg:p-14">
-            <p className="text-xs font-extrabold uppercase tracking-[0.24em] text-[#7a1e2d]">AcilJet Hizmetleri</p>
+            <p className="text-xs font-extrabold uppercase tracking-[0.24em] text-[#7a1e2d]">AcilJet Kurye Hizmetleri</p>
             <h1 className="mt-4 max-w-4xl text-4xl font-extrabold tracking-tight text-[#111418] md:text-6xl">
               Hız, hacim ve mesafeye göre net kurye çözümleri.
             </h1>
             <p className="mt-5 max-w-3xl text-base leading-8 text-[#111418]/68 md:text-lg">
-              Her gönderi aynı tempoda ilerlemez. AcilJet, paketin aciliyetini, hacmini ve teslimat yönünü birlikte değerlendirerek doğru hizmet modelini seçer.
+              Her gönderi aynı tempoda ilerlemez. AcilJet Kurye, paketin aciliyetini, hacmini ve teslimat yönünü birlikte değerlendirerek doğru hizmet modelini seçer.
             </p>
           </div>
         </section>
