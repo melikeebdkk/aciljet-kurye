@@ -59,7 +59,7 @@ export default function Navbar() {
       <div className="mx-auto w-full max-w-[1510px] px-4 sm:px-6 lg:px-8">
         <div className="flex min-h-[86px] items-center justify-between gap-4 py-3 sm:min-h-[92px]">
           <Link href="/" prefetch={false} className="flex min-w-0 shrink-0 items-center">
-            <Image src="/aciljet-logo-premium.svg" alt="AcilJet Kurye" width={430} height={150} className="h-12 w-auto shrink-0 sm:h-[54px] lg:h-[58px]" priority />
+            <Image src="/aciljet-logo-burgundy.webp" alt="AcilJet Kurye" width={1100} height={367} className="h-12 w-auto shrink-0 sm:h-[54px] lg:h-[58px]" priority />
           </Link>
 
           <nav className="hidden flex-1 items-center justify-center gap-6 lg:flex xl:gap-9">

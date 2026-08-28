@@ -39,10 +39,10 @@ export default function Footer() {
           <div className="space-y-5">
             <Link href="/" prefetch={false} className="inline-flex">
               <Image
-                src="/aciljet-logo-premium.svg"
+                src="/aciljet-logo-burgundy.webp"
                 alt="AcilJet Kurye"
-                width={430}
-                height={150}
+                width={1100}
+                height={367}
                 className="h-16 w-auto"
               />
             </Link>
