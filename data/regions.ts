@@ -33,7 +33,7 @@ export const regions: Region[] = [
         "excerpt": "Arnavutköy bölgesinde arnavutköy, İstanbul Havalimanı’nın faaliyete geçmesi ve çevresinde kümelenen dev kargo antrepoları, gümrükleme ofisleri ve lojistik merkezleriyle kentin en stratejik aktarma merkezlerinden birine dönüşmüştür. Geniş yüzölçümü ve.",
         "article": [
           "Arnavutköy, İstanbul Havalimanı’nın faaliyete geçmesi ve çevresinde kümelenen dev kargo antrepoları, gümrükleme ofisleri ve lojistik merkezleriyle kentin en stratejik aktarma merkezlerinden birine dönüşmüştür. Geniş yüzölçümü ve hızla gelişen sanayi/depolama aksı, zaman duyarlı hava kargo transferlerini zorunlu kılmaktadır.",
-          "Örneğin; havalimanı gümrük sahasında bekleyen kritik bir ithalat evrakını, konşimento asıllarını veya acil bir medikal test kitini mesai bitmeden Maslak veya İkitelli'deki merkezinize ulaştırmanız mı gerekiyor? Havalimanı bölgesinin geniş operasyon alanında vakit kaybetmek yerine AcilJet Kurye ile irtibata geçtiğinizde; havalimanı ve antrepo prosedürlerine hakim saha ekibimiz paketi dakikalar içinde teslim alır, Kuzey Marmara Otoyolu ve bağlantı yollarını kullanarak en kısa sürede doğrudan hedefe teslim eder.",
+          "Örneğin; havalimanı gümrük sahasında bekleyen kritik bir ithalat evrakını, konşimento asıllarını veya acil bir medikal test kitini mesai bitmeden Maslak veya İkitelli'deki merkezinize ulaştırmanız mı gerekiyor? Havalimanı bölgesinin geniş operasyon alanında vakit kaybetmek yerine AcilJet Kurye ile irtibata geçtiğinizde; havalimanı ve antrepo prosedürlerine hakim saha ekibimiz paketi hızlıca teslim alır, Kuzey Marmara Otoyolu ve bağlantı yollarını kullanarak en kısa sürede doğrudan hedefe teslim eder.",
           "Öne çıkan hizmetler: Havalimanı & Gümrük VIP Kurye; Uçak Kargo Entegrasyonlu Teslimat; Hafif Ticari & Panelvan Antrepo Transferi; 7/24 Kesintisiz Lojistik Hattı."
         ],
         "quickStat": "Havalimanı & Gümrük VIP Kurye"
@@ -57,7 +57,7 @@ export const regions: Region[] = [
         "excerpt": "Bağcılar bölgesinde bağcılar; İSTOÇ, Tekstilkent, Matbaacılar Sitesi, Oto Market ve Basın Ekspres aksı ile toptan ticaretin, matbaacılığın ve dağıtım ağlarının kalbidir. Binlerce firmanın her gün yüz binlerce ürün sirkülasyonu yaptığı bu bölgede.",
         "article": [
           "Bağcılar; İSTOÇ, Tekstilkent, Matbaacılar Sitesi, Oto Market ve Basın Ekspres aksı ile toptan ticaretin, matbaacılığın ve dağıtım ağlarının kalbidir. Binlerce firmanın her gün yüz binlerce ürün sirkülasyonu yaptığı bu bölgede lojistik gecikmeler doğrudan ciro kaybına neden olur.",
-          "Örneğin; Matbaacılar Sitesi'nde baskısı yeni biten kurumsal katalog numunelerini veya İSTOÇ'taki toptan mağazanızdan çıkan e- ticaret toplu paketlerini Anadolu Yakası'ndaki mağazanıza aynı gün mesai bitimine kadar ulaştırmanız mı gerekiyor? Ağır kamyon ve sevkiyat trafiğinde zaman harcamak yerine AcilJet Araçlı ve Moto Kurye filomuz devreye girer. Motora sığacak numuneleri moto kurye ile, toplu kolileri ise Doblo/Panelvan araçlarımızla planlı şekilde adresine sevk ederiz.",
+          "Örneğin; Matbaacılar Sitesi'nde baskısı yeni biten kurumsal katalog numunelerini veya İSTOÇ'taki toptan mağazanızdan çıkan e-ticaret paketlerini Anadolu Yakası'ndaki mağazanıza aynı gün mesai bitimine kadar ulaştırmanız mı gerekiyor? Ağır kamyon ve sevkiyat trafiğinde zaman harcamak yerine AcilJet Araçlı ve Moto Kurye filomuz devreye girer. Motora sığacak numuneleri moto kurye ile, toplu kolileri ise Doblo/Panelvan araçlarımızla planlı şekilde adresine sevk ederiz.",
           "Öne çıkan hizmetler: İSTOÇ & Tekstilkent Toptan Kurye; Matbaa & Numune Hızlı Teslimatı; Panelvan & Doblo Koli Dağıtımı; E-Ticaret Aynı Gün Teslimat."
         ],
         "quickStat": "İSTOÇ & Tekstilkent Toptan Kurye"
@@ -81,7 +81,7 @@ export const regions: Region[] = [
         "excerpt": "Bakırköy bölgesinde bakırköy; Ataköy, Florya, Yeşilköy sahil şeridi, köklü sağlık kuruluşları, adliye sarayı ve lüks alışveriş merkezleriyle kentin en köklü ve hareketli ticaret/yaşam merkezlerindendir. Sahil yolu ve E-5 bağlantılarında mesai.",
         "article": [
           "Bakırköy; Ataköy, Florya, Yeşilköy sahil şeridi, köklü sağlık kuruluşları, adliye sarayı ve lüks alışveriş merkezleriyle kentin en köklü ve hareketli ticaret/yaşam merkezlerindendir. Sahil yolu ve E-5 bağlantılarında mesai saatlerinde yaşanan trafik tıkanıklıkları acil taşımacılığı kritik hale getirir.",
-          "Örneğin; Bakırköy Adliyesi'nde saat 16:30'daki bir duruşma öncesinde hâkime sunulması gereken ek delil dosyasını veya Ataköy Marina'daki müşterinize Florya'dan teslim edilecek lüks mağaza paketini acilen ulaştırmanız mı gerekiyor? AcilJet VIP Moto Kurye, adresinizden paketi alır almaz başka hiçbir ara teslimat yapmadan en uygun sahil veya yan yol bağlantısıyla dakikalar içinde teslimatı gerçekleştirir.",
+          "Örneğin; Bakırköy Adliyesi'nde saat 16:30'daki bir duruşma öncesinde hâkime sunulması gereken ek delil dosyasını veya Ataköy Marina'daki müşterinize Florya'dan teslim edilecek lüks mağaza paketini acilen ulaştırmanız mı gerekiyor? AcilJet VIP Moto Kurye, adresinizden paketi alır almaz başka hiçbir ara teslimat yapmadan en uygun sahil veya yan yol bağlantısıyla teslimatı öncelikli şekilde gerçekleştirir.",
           "Öne çıkan hizmetler: Bakırköy Adliyesi Hukuk & Dava Dosyası Kuryesi; Florya & Ataköy VIP Özel Paket Taşımacılığı; Klinik & Sağlık Merkezi Rapor Transferi; Lüks Mağaza & Butik Aynı Gün Teslimat."
         ],
         "quickStat": "Bakırköy Adliyesi Hukuk & Dava Dosyası Kuryesi"
@@ -93,7 +93,7 @@ export const regions: Region[] = [
         "excerpt": "Başakşehir bölgesinde başakşehir; devasa organize sanayi siteleri (İkitelli OSB), Çam ve Sakura Şehir Hastanesi, modern konut projeleri ve Bahçeşehir aksıyla dev bir sanayi ve sağlık merkezidir. Geniş coğrafi yapısı ve sanayi giriş-çıkışlarındaki ağır.",
         "article": [
           "Başakşehir; devasa organize sanayi siteleri (İkitelli OSB), Çam ve Sakura Şehir Hastanesi, modern konut projeleri ve Bahçeşehir aksıyla dev bir sanayi ve sağlık merkezidir. Geniş coğrafi yapısı ve sanayi giriş-çıkışlarındaki ağır vasıta trafiği esnek lojistik modellerini gerektirir.",
-          "Örneğin; İkitelli OSB'deki fabrikanızda çalışan CNC tezgâhı için acil bir rulman/elektronik kart mı lazım veya Çam ve Sakura Şehir Hastanesi'ne bir medikal medikal firmanın acil cerrahi sarf malzemesi mi ulaştırması gerekiyor? AcilJet Kurye, motorlu ve hafif ticari filosuyla hem küçük yedek parçaları hem de hacimli koli ve cihazları anında alıp doğrudan ilgili üniteye sevk eder.",
+          "Örneğin; İkitelli OSB'deki fabrikanızda çalışan CNC tezgâhı için acil bir rulman/elektronik kart mı lazım veya Çam ve Sakura Şehir Hastanesi'ne bir medikal firmanın acil cerrahi sarf malzemesi mi ulaştırması gerekiyor? AcilJet Kurye, motorlu ve hafif ticari filosuyla hem küçük yedek parçaları hem de hacimli koli ve cihazları hızlıca alıp doğrudan ilgili üniteye sevk eder.",
           "Öne çıkan hizmetler: İkitelli OSB Ağır Sanayi & Yedek Parça Kuryesi; Şehir Hastanesi Medikal & Tıbbi Cihaz Teslimatı; Bahçeşehir & Kayaşehir Hızlı Paket Servisi; Panelvan & Doblo İmalat Sevkiyatı."
         ],
         "quickStat": "İkitelli OSB Ağır Sanayi & Yedek Parça Kuryesi"
@@ -105,7 +105,7 @@ export const regions: Region[] = [
         "excerpt": "Bayrampaşa bölgesinde bayrampaşa; 15 Temmuz Demokrasi Otogarı, Mega Center Gıda Toptancıları Sitesi, plastik, kalıp ve triko imalathaneleriyle İstanbul’un üretim ve şehirlerarası yolcu/kargo aktarma göbeğidir. Otogar çevresi ve sanayi sokaklarındaki.",
         "article": [
           "Bayrampaşa; 15 Temmuz Demokrasi Otogarı, Mega Center Gıda Toptancıları Sitesi, plastik, kalıp ve triko imalathaneleriyle İstanbul’un üretim ve şehirlerarası yolcu/kargo aktarma göbeğidir. Otogar çevresi ve sanayi sokaklarındaki yoğun karmaşa özel teslimat planı ister.",
-          "Örneğin; Anadolu'daki bir bayinize giden şehirlerarası otobüsün bagajına kalkıştan 20 dakika önce acil bir yedek parça kolisini yetiştirmeniz mi gerekiyor? Ya da Mega Center'daki toptancı ofisinizden Kadıköy'deki restorana acil gıda numunesi mi gidecek? AcilJet Otobüs Kargo Kuryesi otogar peronlarına kadar inip gönderinizi muavine elden teslim eder veya moto kuryemiz numuneyi şehiriçi hedefe hızla ulaştırır.",
+          "Örneğin; Anadolu'daki bir bayinize giden şehirlerarası otobüsün bagajına kalkıştan kısa süre önce acil bir yedek parça kolisini yetiştirmeniz mi gerekiyor? Ya da Mega Center'daki toptancı ofisinizden Kadıköy'deki restorana acil gıda numunesi mi gidecek? AcilJet Otobüs Kargo Kuryesi otogar peronlarına kadar inip gönderinizi muavine elden teslim eder veya moto kuryemiz numuneyi şehir içi hedefe hızlıca ulaştırır.",
           "Öne çıkan hizmetler: Bayrampaşa Otogar Emanet & Bagaj Kuryesi; Mega Center Toptan Gıda & Numune Transferi; Plastik & Kalıp İmalatçıları Acil Parça Dağıtımı; Şehirlerarası Otobüs Kargo Entegrasyonu."
         ],
         "quickStat": "Bayrampaşa Otogar Emanet & Bagaj Kuryesi"
@@ -114,10 +114,10 @@ export const regions: Region[] = [
         "name": "Beşiktaş",
         "slug": "besiktas-kurye",
         "headline": "Beşiktaş Acil Kurye | Boğaz Hattı, Ajanslar & Kurumsal Merkezler",
-        "excerpt": "Beşiktaş bölgesinde beşiktaş; Levent, Etiler, Akaretler, Bebek ve Ortaköy hattıyla kreatif ajanslar, konsolosluklar, üniversiteler, holding binaları ve lüks yaşamın merkezidir. Barbaros Bulvarı ve sahil sahil yolu trafiğinin kilitlendiği anlarda.",
+        "excerpt": "Beşiktaş; Levent, Etiler, Akaretler, Bebek ve Ortaköy hattında ajanslar, konsolosluklar, üniversiteler ve kurumsal merkezlerle yoğun bir teslimat trafiğine sahiptir. Barbaros Bulvarı ve sahil yolu yoğunluğunda planlı moto kurye desteği öne çıkar.",
         "article": [
-          "Beşiktaş; Levent, Etiler, Akaretler, Bebek ve Ortaköy hattıyla kreatif ajanslar, konsolosluklar, üniversiteler, holding binaları ve lüks yaşamın merkezidir. Barbaros Bulvarı ve sahil sahil yolu trafiğinin kilitlendiği anlarda zaman yönetimi hayati önem taşır.",
-          "Örneğin; Akaretler’deki kreatif ajansınızdan Levent’teki kurumsal müşterinize saat 16:30’daki kritik lansman toplantısına yetişmesi gereken ıslak imzalı sözleşme veya sunum numunesini mi göndermeniz gerekiyor? Barbaros trafiğinde zaman kaybetmek yerine AcilJet WhatsApp hattına konumu iletmeniz yeterlidir. 15 dakikada gelen VIP Moto Kuryemiz paketi alıp doğrudan Levent'e toplantı masasına ulaştırır.",
+          "Beşiktaş; Levent, Etiler, Akaretler, Bebek ve Ortaköy hattıyla kreatif ajanslar, konsolosluklar, üniversiteler, holding binaları ve lüks yaşamın merkezidir. Barbaros Bulvarı ve sahil yolu trafiğinin yoğunlaştığı anlarda zaman yönetimi hayati önem taşır.",
+          "Örneğin; Akaretler’deki kreatif ajansınızdan Levent’teki kurumsal müşterinize saat 16:30’daki kritik lansman toplantısına yetişmesi gereken ıslak imzalı sözleşme veya sunum numunesini mi göndermeniz gerekiyor? Konum ve paket bilgisi alındığında Barbaros Bulvarı, sahil yolu ve alternatif bağlantılar değerlendirilir; VIP moto kurye gönderiyi tek iş olarak alıp toplantı saatine göre doğrudan alıcıya ulaştırır.",
           "Öne çıkan hizmetler: VIP Moto Kurye (Doğrudan & Beklemesiz Teslimat); Kreatif Ajans & Medya Lansman Kuryesi; Bebek & Etiler Lüks Butik Teslimatı; 7/24 Gece ve Nöbetçi Evrak Servisi."
         ],
         "quickStat": "VIP Moto Kurye (Doğrudan & Beklemesiz Teslimat)"
@@ -177,7 +177,7 @@ export const regions: Region[] = [
         "excerpt": "Esenler bölgesinde esenler; Tekstilkent ve Giyimkent gibi iki dev ticaret kompleksi, toptan hazır giyim showroomları ve kentin merkez otoyol kavşaklarına komşuluğu ile tekstil sektörünün ana omurgasıdır. Günlük yüz binlerce fatura, kumaş numunesi.",
         "article": [
           "Esenler; Tekstilkent ve Giyimkent gibi iki dev ticaret kompleksi, toptan hazır giyim showroomları ve kentin merkez otoyol kavşaklarına komşuluğu ile tekstil sektörünün ana omurgasıdır. Günlük yüz binlerce fatura, kumaş numunesi ve mağaza kolisi transfer edilir.",
-          "Örneğin; Tekstilkent'teki kumaş toptancınızdan Osmanbey'deki moda tasarımcısına yeni sezon kartela ve numune kumaşlarının 1 saat içinde gitmesi mi gerekiyor? Müşterinizi bekletmemek adına AcilJet Moto Kurye'yi yönlendiriyoruz; kartelalar zarar görmeden, ütüsü bozulmadan doğrudan tasarımcının eline teslim ediliyor.",
+          "Örneğin; Tekstilkent'teki kumaş toptancınızdan Osmanbey'deki moda tasarımcısına yeni sezon kartela ve numune kumaşlarının aynı gün içinde ulaşması mı gerekiyor? Müşterinizi bekletmemek adına AcilJet Moto Kurye'yi yönlendiriyoruz; kartelalar zarar görmeden, ütüsü bozulmadan doğrudan tasarımcının eline teslim ediliyor.",
           "Öne çıkan hizmetler: Tekstilkent & Giyimkent Kartela / Kumaş Kuryesi; Hazır Giyim Toptan Sipariş & Koli Transferi; E-Ticaret Moda Mağazaları Hızlı Dağıtım; Otogar Bağlantılı Şehirlerarası Paket Çözümleri."
         ],
         "quickStat": "Tekstilkent & Giyimkent Kartela / Kumaş Kuryesi"
@@ -189,7 +189,7 @@ export const regions: Region[] = [
         "excerpt": "Esenyurt bölgesinde esenyurt; yüzlerce fabrikanın yer aldığı sanayi siteleri, dev e-ticaret lojistik depoları, lojistik köyleri ve yoğun nüfuslu konut projeleriyle İstanbul'un en hareketli ve hacimli bölgesidir. Bölge içi yoğun trafik ve depo giriş.",
         "article": [
           "Esenyurt; yüzlerce fabrikanın yer aldığı sanayi siteleri, dev e-ticaret lojistik depoları, lojistik köyleri ve yoğun nüfuslu konut projeleriyle İstanbul'un en hareketli ve hacimli bölgesidir. Bölge içi yoğun trafik ve depo giriş kuyrukları operasyonel hız gerektirir.",
-          "Örneğin; Esenyurt'taki ana e-ticaret deponuzdan Kadıköy veya Beşiktaş'taki müşterinize 'aynı gün 3 saatte teslim' sözü verdiğiniz kritik bir elektronik ürünü veya yedek parçayı çıkarmak mı istiyorsunuz? AcilJet Araçlı ve Motorlu Kurye filomuz depodan toplu veya tekli alım yaparak tüm İstanbul geneline aynı gün jet hızında dağıtım sağlar.",
+          "Örneğin; Esenyurt'taki ana e-ticaret deponuzdan Kadıköy veya Beşiktaş'taki müşterinize aynı gün teslim hedefiyle kritik bir elektronik ürünü veya yedek parçayı çıkarmak mı istiyorsunuz? AcilJet Araçlı ve Motorlu Kurye filomuz depodan toplu veya tekli alım yaparak İstanbul geneline planlı aynı gün dağıtım sağlar.",
           "Öne çıkan hizmetler: E-Ticaret Depo Aynı Gün Hızlı Çıkış; Sanayi Siteleri Yedek Parça & Hammadde Kuryesi; Panelvan & Doblo Hacimli Yük Taşımacılığı; Rezidans & Toplu Konut Acil Kurye."
         ],
         "quickStat": "E-Ticaret Depo Aynı Gün Hızlı Çıkış"
@@ -306,10 +306,10 @@ export const regions: Region[] = [
         "name": "Şişli & Nişantaşı",
         "slug": "sisli-nisantasi-kurye",
         "headline": "Şişli & Nişantaşı Kurye | Sağlık, Moda, Finans & Rezidanslar",
-        "excerpt": "Şişli & Nişantaşı bölgesinde şişli; Mecidiyeköy’ün iş kuleleri, Nişantaşı’nın haute couture moda atölyeleri, Fulya ve Bomonti’nin rezidansları ve dev özel hastaneleriyle İstanbul’un kalbidir. Halaskargazi, Valikonağı ve Büyükdere Caddesi’nde araçla ilerlemek.",
+        "excerpt": "Şişli ve Nişantaşı; Mecidiyeköy iş kuleleri, Nişantaşı moda atölyeleri, Fulya-Bomonti rezidansları ve özel sağlık merkezleriyle gün içinde yoğun kurye ihtiyacı doğuran bir hattır. Klinik, moda ve ofis gönderileri için kontrollü teslimat planlanır.",
         "article": [
           "Şişli; Mecidiyeköy’ün iş kuleleri, Nişantaşı’nın haute couture moda atölyeleri, Fulya ve Bomonti’nin rezidansları ve dev özel hastaneleriyle İstanbul’un kalbidir. Halaskargazi, Valikonağı ve Büyükdere Caddesi’nde araçla ilerlemek imkansızken iki tekerlekli kuryeler vazgeçilmezdir.",
-          "Örneğin; Nişantaşı’ndaki estetik kliniğinizin operasyon sırasında acilen Maslak’taki laboratuvardan özel bir medikal biyopsi kitine mi ihtiyacı oldu ya da moda tasarımcınızın özel dikim elbisesini akşam galası öncesi Beşiktaş’taki müşterisine mi ulaştırması gerekiyor? AcilJet VIP Kurye, özel korumalı çantasıyla sarsıntısız, steril ve dakikalar içinde teslimatı sağlar.",
+          "Örneğin; Nişantaşı’ndaki estetik kliniğinizin operasyon sırasında acilen Maslak’taki laboratuvardan özel bir medikal biyopsi kitine mi ihtiyacı oldu ya da moda tasarımcınızın özel dikim elbisesini akşam galası öncesi Beşiktaş’taki müşterisine mi ulaştırması gerekiyor? AcilJet VIP Kurye, uygun taşıma çantası ve tek teslimat odağıyla gönderiyi hızlı, kontrollü ve alıcı bilgisi netleşmiş şekilde tamamlar.",
           "Öne çıkan hizmetler: Fulya & Nişantaşı Medikal ve Klinik Kuryesi; Haute Couture Askılı & Butik Kıyafet Taşımacılığı; Mecidiyeköy Plaza ve Noter Evrak Dağıtımı; 7/24 Kesintisiz Nöbetçi Moto Kurye."
         ],
         "quickStat": "Fulya & Nişantaşı Medikal ve Klinik Kuryesi"
@@ -351,10 +351,10 @@ export const regions: Region[] = [
         "name": "Ataşehir",
         "slug": "atasehir-kurye",
         "headline": "Ataşehir Kurye | İstanbul Finans Merkezi, Plazalar & Rezidanslar",
-        "excerpt": "Ataşehir bölgesinde ataşehir; İstanbul Uluslararası Finans Merkezi (İFM), banka genel müdürlükleri, Batı Ataşehir lüks rezidansları ve Yedpa Ticaret Merkezi ile Anadolu Yakası'nın finansal kalbidir. TEM ve E-5 kesişimindeki yoğun plaza trafiği.",
+        "excerpt": "Ataşehir; İstanbul Finans Merkezi, banka genel müdürlükleri, Batı Ataşehir rezidansları ve YEDPA hattıyla Anadolu Yakası'nın en yoğun iş bölgelerinden biridir. Evrak, numune ve acil paketler için saat planı net olan kurye akışı gerekir.",
         "article": [
           "Ataşehir; İstanbul Uluslararası Finans Merkezi (İFM), banka genel müdürlükleri, Batı Ataşehir lüks rezidansları ve Yedpa Ticaret Merkezi ile Anadolu Yakası'nın finansal kalbidir. TEM ve E-5 kesişimindeki yoğun plaza trafiği dakiklik gerektirir.",
-          "Örneğin; Finans Merkezi'ndeki genel müdürlüğünüzden Maslak'taki yabancı ortaklarınıza saat 17:00 yönetim kurulu öncesinde ıslak imzalı bilançoları ve fizibilite raporlarını mı ulaştırmalısınız? Köprü trafiğinin kilitlendiği saatlerde AcilJet VIP Moto Kurye en seri köprü bağlantısını kullanarak evrakları tam zamanında toplantı masasına iletir.",
+          "Örneğin; Finans Merkezi'ndeki genel müdürlüğünüzden Maslak'taki yabancı ortaklarınıza saat 17:00 yönetim kurulu öncesinde ıslak imzalı bilançoları ve fizibilite raporlarını mı ulaştırmalısınız? AcilJet VIP Moto Kurye, köprü ve tünel alternatiflerini trafik durumuna göre değerlendirir; evrakı toplantı saatine yetişecek şekilde öncelikli akışa alır.",
           "Öne çıkan hizmetler: İstanbul Finans Merkezi (İFM) VIP Kurye; YEDPA Ticaret Merkezi Toptan & Parça Kuryesi; Banka & Denetim Şirketleri Evrak Sirkülasyonu; Rezidanslar İçin 7/24 Güvenli Paket Servisi."
         ],
         "quickStat": "İstanbul Finans Merkezi (İFM) VIP Kurye"
@@ -378,7 +378,7 @@ export const regions: Region[] = [
         "excerpt": "Çekmeköy bölgesinde çekmeköy; Taşdelen sanayi siteleri, Alemdağ, Ömerli villa projeleri, kolejler ve Kuzey Marmara Otoyolu bağlantısıyla Anadolu Yakası'nın hızla büyüyen merkezlerindendir. Genişleyen yerleşim alanlarında hızlı adres takibi.",
         "article": [
           "Çekmeköy; Taşdelen sanayi siteleri, Alemdağ, Ömerli villa projeleri, kolejler ve Kuzey Marmara Otoyolu bağlantısıyla Anadolu Yakası'nın hızla büyüyen merkezlerindendir. Genişleyen yerleşim alanlarında hızlı adres takibi şarttır.",
-          "Örneğin; Çekmeköy'deki bir eğitim kurumundan veya işletmenizden Ataşehir'deki muhasebe merkezine acil yetiştirilmesi gereken bordro ve çek evraklarınız mı var? AcilJet Express Kurye çağrınız üzerine 15 dakikada adresinize gelerek evrakları teslim alır ve Şile otoyolundan hızla hedef ilçeye iletir.",
+          "Örneğin; Çekmeköy'deki bir eğitim kurumundan veya işletmenizden Ataşehir'deki muhasebe merkezine acil yetiştirilmesi gereken bordro ve çek evraklarınız mı var? AcilJet Express Kurye, adres ve alıcı bilgisi netleştiğinde evrakları teslim alır ve Şile otoyolu bağlantısını kullanarak hedef ilçeye hızlıca iletir.",
           "Öne çıkan hizmetler: Şile Otoyolu & Madenler Express Kurye; Ömerli Villa Siteleri Özel Kurye; Taşdelen Sanayi Parça ve Numune Dağıtımı; Hafif Ticari Doblo ile Koli & Malzeme Taşıma."
         ],
         "quickStat": "Şile Otoyolu & Madenler Express Kurye"
@@ -387,10 +387,10 @@ export const regions: Region[] = [
         "name": "Kadıköy",
         "slug": "kadikoy-kurye",
         "headline": "Kadıköy Moto Kurye | Bağdat Caddesi, Moda, Rıhtım & Kozyatağı",
-        "excerpt": "Kadıköy bölgesinde kadıköy; Bağdat Caddesi’nin lüks mağazaları, Moda ve Caferağa’nın tasarım atölyeleri, Rıhtım’ın insan sirkülasyonu ve Kozyatağı plazalarıyla Anadolu Yakası’nın kültürel ve ekonomik merkezidir. Gün boyu süren trafik ve otopark.",
+        "excerpt": "Kadıköy; Bağdat Caddesi mağazaları, Moda-Caferağa atölyeleri, Rıhtım çevresi ve Kozyatağı ofisleriyle Anadolu Yakası'nda moto kurye talebinin en yoğun olduğu merkezlerden biridir. Trafik ve otopark yükü teslimat planını doğrudan etkiler.",
         "article": [
           "Kadıköy; Bağdat Caddesi’nin lüks mağazaları, Moda ve Caferağa’nın tasarım atölyeleri, Rıhtım’ın insan sirkülasyonu ve Kozyatağı plazalarıyla Anadolu Yakası’nın kültürel ve ekonomik merkezidir. Gün boyu süren trafik ve otopark sıkıntısı moto kuryeyi vazgeçilmez kılar.",
-          "Örneğin; Bağdat Caddesi’ndeki butiğinizden Nişantaşı’ndaki müşterinize akşam giyilecek özel tasarım bir elbiseyi mi göndereceksiniz ya da Kozyatağı'ndaki ofisinizden karşı yakaya sözleşme mi gidecek? AcilJet Express Kurye, Avrasya Tüneli ve köprü alternatiflerini en hızlı şekilde değerlendirerek aynı gün, tam taahhüt edilen saatte paketi yerine ulaştırır.",
+          "Örneğin; Bağdat Caddesi’ndeki butiğinizden Nişantaşı’ndaki müşterinize akşam giyilecek özel tasarım bir elbiseyi mi göndereceksiniz ya da Kozyatağı'ndaki ofisinizden karşı yakaya sözleşme mi gidecek? AcilJet Express Kurye, Avrasya Tüneli ve köprü alternatiflerini trafik durumuna göre değerlendirir; gönderiyi aynı gün teslimat hedefiyle planlayıp alıcıya net bilgiyle ulaştırır.",
           "Öne çıkan hizmetler: Bağdat Caddesi Lüks Butik & Moda Kuryesi; Kozyatağı Plaza ve Ofis Evrak Transferi; Moda Tasarım Atölyeleri Numune Dağıtımı; 7/24 Nöbetçi Gece Moto Kuryesi."
         ],
         "quickStat": "Bağdat Caddesi Lüks Butik & Moda Kuryesi"
@@ -426,7 +426,7 @@ export const regions: Region[] = [
         "excerpt": "Pendik bölgesinde pendik; Sabiha Gökçen Uluslararası Havalimanı, Pendik Uluslararası Ro-Ro Liman Terminali, Kurtköy Teknopark ve tersane yan sanayisi ile uluslararası ticaret ve lojistiğin merkez üssüdür. Havalimanı kargo terminalleri ile şehir.",
         "article": [
           "Pendik; Sabiha Gökçen Uluslararası Havalimanı, Pendik Uluslararası Ro-Ro Liman Terminali, Kurtköy Teknopark ve tersane yan sanayisi ile uluslararası ticaret ve lojistiğin merkez üssüdür. Havalimanı kargo terminalleri ile şehir merkezi arasındaki evrak akışı çok yoğundur.",
-          "Örneğin; Sabiha Gökçen Havalimanı kargo gümrüğüne inen acil bir uçak yedek parçasını veya ihracat konşimentosunu Gebze OSB'deki fabrikanıza 1 saat içinde yetiştirmeniz mi gerekiyor? AcilJet Pendik Kuryesi, kargo terminalinden paketi teslim alarak Kuzey Marmara veya E-5 üzerinden doğrudan fabrikanın montaj hattına ulaştırır.",
+          "Örneğin; Sabiha Gökçen Havalimanı kargo gümrüğüne inen acil bir uçak yedek parçasını veya ihracat konşimentosunu Gebze OSB'deki fabrikanıza aynı gün içinde yetiştirmeniz mi gerekiyor? AcilJet Pendik Kuryesi, kargo terminalinden paketi teslim alarak Kuzey Marmara veya E-5 üzerinden doğrudan fabrikanın montaj hattına ulaştırır.",
           "Öne çıkan hizmetler: Sabiha Gökçen Kargo & Havalimanı VIP Kurye; Pendik Ro-Ro Limanı Gümrük & Manifesto Evrakı; Kurtköy Teknopark Bilişim & Proje Kuryesi; Uçak Kargo & Otobüs Kargo Şehirlerarası Entegrasyon."
         ],
         "quickStat": "Sabiha Gökçen Kargo & Havalimanı VIP Kurye"
@@ -486,7 +486,7 @@ export const regions: Region[] = [
         "excerpt": "Ümraniye bölgesinde ümraniye; Dudullu Organize Sanayi Bölgesi, İMES Sanayi Sitesi, KADOSAN Oto Sanayi, DES Sanayi Sitesi, Modoko Mobilyacılar Sitesi ve plazalar aksıyla devasa bir sanayi ve ticaret devidir. Yüzlerce fabrika ve ofis arasında her.",
         "article": [
           "Ümraniye; Dudullu Organize Sanayi Bölgesi, İMES Sanayi Sitesi, KADOSAN Oto Sanayi, DES Sanayi Sitesi, Modoko Mobilyacılar Sitesi ve plazalar aksıyla devasa bir sanayi ve ticaret devidir. Yüzlerce fabrika ve ofis arasında her dakika evrak ve parça transferi akar.",
-          "Örneğin; İMES'teki kalıpçı atölyenizden Dudullu OSB'deki otomotiv yan sanayi fabrikasına saat 14:00 mesaisine yetişmesi gereken kritik bir aparat veya Modoko'daki mobilya mağazanızdan mimarlık ofisine kumaş numuneleri mi gidecek? AcilJet Kurye'nin bölgede hazır bekleyen yaygın moto ve araçlı kuryeleri sayesinde ürünleriniz dakikalar içinde transfer edilir.",
+          "Örneğin; İMES'teki kalıpçı atölyenizden Dudullu OSB'deki otomotiv yan sanayi fabrikasına saat 14:00 mesaisine yetişmesi gereken kritik bir aparat veya Modoko'daki mobilya mağazanızdan mimarlık ofisine kumaş numuneleri mi gidecek? AcilJet Kurye'nin moto ve araçlı kurye ağıyla ürünleriniz uygun ekip seçilerek hızlıca transfer edilir.",
           "Öne çıkan hizmetler: İMES, KADOSAN & Dudullu OSB Ağır Sanayi Kuryesi; MODOKO Mobilya & Numune Hızlı Teslimatı; Plazalar & Finans Kuruluşları Kurumsal Evrak Dağıtımı; Doblo / Panelvan ile Atölye ve Fabrika Taşımacılığı."
         ],
         "quickStat": "İMES, KADOSAN & Dudullu OSB Ağır Sanayi Kuryesi"
@@ -518,7 +518,7 @@ export const regions: Region[] = [
         "headline": "Gebze & Kocaeli Kurye | GOSB, TOSB, Dilovası ve İstanbul Bağlantısı",
         "excerpt": "Gebze, Kocaeli ve İstanbul arasında sanayi, depo, üretim ve acil araçlı kurye ihtiyaçları için planlı teslimat yapılır.",
         "article": [
-          "Örneğin; GOSB'daki otomotiv fabrikasında montaj hattının durmaması için Maslak veya İkitelli'deki ana tedarikçiden acilen gelmesi gereken özel bir cıvata kiti veya teknik çizim dosyası mı var? İstanbul-Gebze gişeler trafiğini dert etmeyin. AcilJet Gebze Ekspres Kuryesi, İstanbul'dan aldığı paketi Kuzey Marmara veya E-5 üzerinden 45-60 dakika içinde fabrikanızın mal kabul birimine teslim eder.",
+          "Örneğin; GOSB'daki otomotiv fabrikasında montaj hattının durmaması için Maslak veya İkitelli'deki ana tedarikçiden acilen gelmesi gereken özel bir cıvata kiti veya teknik çizim dosyası mı var? AcilJet Gebze Ekspres Kuryesi, İstanbul'dan aldığı paketi Kuzey Marmara veya E-5 yoğunluğunu değerlendirerek fabrikanızın mal kabul birimine planlı şekilde teslim eder.",
           "Öne çıkan hizmetler: İstanbul - Gebze Arası VIP Express Moto Kurye; GOSB, TOSB & Dilovası Sanayi Kuryesi; Panelvan & Doblo ile Fabrikalar Arası Sevkiyat; Gümrük & İthalat/İhracat İrsaliye Dağıtımı."
         ],
         "quickStat": "İstanbul - Gebze Arası VIP Express Moto Kurye"
