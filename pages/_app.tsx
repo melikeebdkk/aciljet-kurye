@@ -29,7 +29,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     name: SITE_NAME,
     url: SITE_URL,
     telephone: PHONE_NUMBER,
-    image: `${SITE_URL}/aciljet-logo-selected.webp`,
+    image: `${SITE_URL}/aciljet-logo-exact.png`,
     priceRange: "$$",
     address: {
       "@type": "PostalAddress",

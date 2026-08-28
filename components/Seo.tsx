@@ -3,7 +3,7 @@ import Head from "next/head";
 export const SITE_URL = "https://www.aciljetkurye.com";
 export const SITE_NAME = "AcilJet Kurye";
 export const PHONE_NUMBER = "+905428421013";
-export const DEFAULT_OG_IMAGE = `${SITE_URL}/aciljet-logo-selected.webp`;
+export const DEFAULT_OG_IMAGE = `${SITE_URL}/aciljet-logo-exact.png`;
 
 type JsonLd = Record<string, unknown>;
 
