@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+const operationSteps = ["Acil alım yönlendirmesi", "Moto veya araçlı ekip seçimi", "Teslimat süresi ve fiyat netliği"];
+
 export default function Hero() {
   return (
     <section className="aciljet-shell px-3 py-4 sm:px-6 sm:py-7 lg:px-8">
@@ -26,24 +28,27 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="relative min-h-[21rem] overflow-hidden rounded-[1.45rem] border border-[#d8c7b0]/80 bg-[#111418] p-5 text-white shadow-[0_22px_60px_rgba(17,20,24,0.18)] sm:min-h-[26rem] sm:rounded-[1.65rem] sm:p-6 lg:min-h-[28rem]">
-            <Image
-              src="/aciljet-motokurye-logo-hero.webp"
-              alt=""
-              fill
-              sizes="(max-width: 1024px) calc(100vw - 2.5rem), 38vw"
-              className="object-cover object-[62%_center]"
-            />
-            <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(17,20,24,0.68)_0%,rgba(42,13,21,0.46)_48%,rgba(17,20,24,0.66)_100%)] lg:bg-[linear-gradient(90deg,rgba(17,20,24,0.74)_0%,rgba(42,13,21,0.54)_48%,rgba(17,20,24,0.24)_100%)]" />
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_78%_24%,rgba(122,30,45,0.20),transparent_42%),linear-gradient(180deg,rgba(17,20,24,0.04)_0%,rgba(17,20,24,0.56)_100%)]" />
-            <div className="relative z-10 flex h-full flex-col justify-between">
-              <div>
-                <p className="text-[0.66rem] font-extrabold uppercase tracking-[0.22em] text-[#d8c7b0] sm:text-xs sm:tracking-[0.24em]">Operasyon Mantığı</p>
-                <h2 className="mt-3 text-[2rem] font-extrabold leading-tight min-[420px]:text-4xl sm:mt-4">Adres, paket, aciliyet. Gerisi teslimat planı.</h2>
-              </div>
-              <div className="mt-5 grid gap-2.5 sm:mt-8 sm:gap-3">
-                {["Acil alım yönlendirmesi", "Moto veya araçlı ekip seçimi", "Teslimat süresi ve fiyat netliği"].map((item) => (
-                  <div key={item} className="rounded-[1.15rem] border border-white/24 bg-[#111418]/45 px-4 py-2.5 backdrop-blur-[2px] sm:rounded-2xl sm:py-3">
+          <div className="overflow-hidden rounded-[1.45rem] border border-[#d8c7b0]/80 bg-[#111418] text-white shadow-[0_22px_60px_rgba(17,20,24,0.18)] sm:rounded-[1.65rem]">
+            <div className="relative aspect-[4/3] min-h-[17rem] sm:aspect-[16/11] lg:aspect-auto lg:min-h-[17.5rem]">
+              <Image
+                src="/aciljet-motokurye-logo-hero.webp"
+                alt=""
+                fill
+                quality={95}
+                priority
+                sizes="(max-width: 1024px) calc(100vw - 2.5rem), 38vw"
+                className="object-cover object-[62%_center] [filter:saturate(1.08)_contrast(1.04)]"
+              />
+              <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(17,20,24,0.04)_0%,rgba(42,13,21,0.08)_100%)]" />
+            </div>
+            <div className="bg-[radial-gradient(circle_at_88%_10%,rgba(122,30,45,0.45),transparent_36%),linear-gradient(135deg,#111418_0%,#2a0d15_58%,#07080a_100%)] p-5 sm:p-6">
+              <p className="text-[0.66rem] font-extrabold uppercase tracking-[0.22em] text-[#d8c7b0] sm:text-xs sm:tracking-[0.24em]">Operasyon Mantığı</p>
+              <h2 className="mt-3 text-[1.8rem] font-extrabold leading-tight min-[420px]:text-[2rem] sm:text-4xl">
+                Adres, paket, aciliyet. Gerisi teslimat planı.
+              </h2>
+              <div className="mt-5 grid gap-2.5 sm:gap-3">
+                {operationSteps.map((item) => (
+                  <div key={item} className="rounded-[1.15rem] border border-white/24 bg-white/[0.06] px-4 py-2.5 backdrop-blur-[2px] sm:rounded-2xl sm:py-3">
                     <span className="mb-2 block h-1 w-10 rounded-full bg-[#d8c7b0]" />
                     <p className="text-sm font-extrabold text-white/90">{item}</p>
                   </div>
