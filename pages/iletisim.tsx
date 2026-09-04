@@ -51,12 +51,12 @@ export default function Iletisim() {
                 </p>
               </div>
               <div className="mt-4 grid gap-3">
-                <a href="tel:+905428421013" className="group rounded-[1.35rem] border border-[#d8c7b0]/80 bg-[#fffaf2] p-5 transition hover:border-[#7a1e2d]/35">
+                <a href="tel:+905364643329" className="group rounded-[1.35rem] border border-[#d8c7b0]/80 bg-[#fffaf2] p-5 transition hover:border-[#7a1e2d]/35">
                   <p className="text-xs font-extrabold uppercase tracking-[0.18em] text-[#7a1e2d]">Tıkla, Ara</p>
-                  <p className="mt-2 text-3xl font-extrabold tracking-tight text-[#111418]">0542 842 10 13</p>
+                  <p className="mt-2 text-3xl font-extrabold tracking-tight text-[#111418]">0536 464 33 29</p>
                   <p className="mt-3 leading-7 text-[#111418]/62">Telefonla arayın; adresi, paket tipini ve aciliyetinizi söyleyin.</p>
                 </a>
-                <a href="https://wa.me/905428421013?text=Merhaba%2C%20kurye%20hizmeti%20i%C3%A7in%20fiyat%20almak%20istiyorum." target="_blank" rel="noopener noreferrer" className="group rounded-[1.35rem] border border-[#d8c7b0]/80 bg-white p-5 transition hover:border-[#7a1e2d]/35">
+                <a href="https://wa.me/905364643329?text=Merhaba%2C%20kurye%20hizmeti%20i%C3%A7in%20fiyat%20almak%20istiyorum." target="_blank" rel="noopener noreferrer" className="group rounded-[1.35rem] border border-[#d8c7b0]/80 bg-white p-5 transition hover:border-[#7a1e2d]/35">
                   <p className="text-xs font-extrabold uppercase tracking-[0.18em] text-[#7a1e2d]">WhatsApp</p>
                   <p className="mt-2 text-2xl font-extrabold tracking-tight text-[#111418]">Konum ve paket bilgisini gönderin.</p>
                   <p className="mt-3 leading-7 text-[#111418]/62">VIP, Express, Normal veya araçlı kurye seçeneklerinden hangisinin uygun olduğunu belirleyelim.</p>

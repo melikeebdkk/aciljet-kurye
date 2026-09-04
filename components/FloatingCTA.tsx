@@ -1,6 +1,6 @@
-const phoneHref = "tel:+905428421013";
+const phoneHref = "tel:+905364643329";
 const whatsappHref =
-  "https://wa.me/905428421013?text=Merhaba%2C%20kurye%20hizmeti%20i%C3%A7in%20fiyat%20almak%20istiyorum.";
+  "https://wa.me/905364643329?text=Merhaba%2C%20kurye%20hizmeti%20i%C3%A7in%20fiyat%20almak%20istiyorum.";
 
 export default function FloatingCTA() {
   return (

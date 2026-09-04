@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const phoneDisplay = "0542 842 10 13";
-const phoneHref = "tel:+905428421013";
+const phoneDisplay = "0536 464 33 29";
+const phoneHref = "tel:+905364643329";
 const whatsappHref =
-  "https://wa.me/905428421013?text=Merhaba%2C%20kurye%20hizmeti%20i%C3%A7in%20fiyat%20almak%20istiyorum.";
+  "https://wa.me/905364643329?text=Merhaba%2C%20kurye%20hizmeti%20i%C3%A7in%20fiyat%20almak%20istiyorum.";
 
 const mainLinks = [
   ["Anasayfa", "/"],

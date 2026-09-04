@@ -40,9 +40,9 @@ export default function ServiceLanding({ service }: ServiceLandingProps) {
               </h1>
               <p className="mt-5 max-w-3xl text-base leading-8 text-[#111418]/68 md:text-lg">{service.heroText}</p>
               <div className="mt-8 flex flex-wrap gap-3">
-                <a href="tel:+905428421013" className="btn-primary">Hemen Ara</a>
+                <a href="tel:+905364643329" className="btn-primary">Hemen Ara</a>
                 <a
-                  href="https://wa.me/905428421013?text=Merhaba%2C%20kurye%20hizmeti%20i%C3%A7in%20fiyat%20almak%20istiyorum."
+                  href="https://wa.me/905364643329?text=Merhaba%2C%20kurye%20hizmeti%20i%C3%A7in%20fiyat%20almak%20istiyorum."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-ghost"
